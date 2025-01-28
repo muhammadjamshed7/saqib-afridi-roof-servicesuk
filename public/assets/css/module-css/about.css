@@ -74,7 +74,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: var(--maroof-primary);
+    background-color: var(--saqib-primary);
     border-radius: 8px;
     max-width: 295px;
     width: 100%;
@@ -113,7 +113,7 @@
 .about-one__client-img img {
     width: 100%;
     border-radius: 500%;
-    border: 1px solid var(--maroof-base);
+    border: 1px solid var(--saqib-base);
 }
 
 .about-one__happy-client-content {
@@ -137,7 +137,7 @@
     font-size: 38px;
     font-weight: 700;
     line-height: 38px;
-    color: var(--maroof-black);
+    color: var(--saqib-black);
 }
 
 .about-one__count-text {
@@ -178,8 +178,8 @@
     cursor: pointer;
     text-align: center;
     padding: 13px 30px 13px;
-    border: 1px solid var(--maroof-bdr-color);
-    background-color: var(--maroof-white);
+    border: 1px solid var(--saqib-bdr-color);
+    background-color: var(--saqib-white);
     transition: all 0.3s ease;
     border-radius: 32px;
     overflow: hidden;
@@ -198,7 +198,7 @@
     bottom: 0;
     height: 0%;
     content: "";
-    background: var(--maroof-base);
+    background: var(--saqib-base);
     border-radius: 32px;
     transition: all 0.3s ease;
     z-index: -1;
@@ -215,14 +215,14 @@
     transition-delay: 0.1s;
     font-size: 16px;
     line-height: 16px;
-    color: var(--maroof-black);
+    color: var(--saqib-black);
     font-weight: 700;
     transition: all 0.3s ease;
     z-index: 1;
 }
 
 .about-one__main-tab-box .tab-buttons .tab-btn.active-btn p {
-    color: var(--maroof-white);
+    color: var(--saqib-white);
 }
 
 .about-one__main-tab-box .tabs-content {
@@ -295,7 +295,7 @@
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--maroof-base);
+    color: var(--saqib-base);
 }
 
 .about-one__btn-box {
@@ -336,7 +336,7 @@
     top: 10px;
     right: 30px;
     bottom: -30px;
-    border: 5px solid var(--maroof-base);
+    border: 5px solid var(--saqib-base);
     border-radius: 20px;
     animation: topBottom 3s ease-in-out infinite;
 }
@@ -379,7 +379,7 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background-color: var(--maroof-primary);
+    background-color: var(--saqib-primary);
     border-radius: 50%;
 }
 
@@ -387,7 +387,7 @@
     position: relative;
     display: inline-block;
     font-size: 48px;
-    color: var(--maroof-base);
+    color: var(--saqib-base);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -419,7 +419,7 @@
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
-    color: var(--maroof-black);
+    color: var(--saqib-black);
 }
 
 .about-two__right {
@@ -457,7 +457,7 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    color: var(--maroof-black);
+    color: var(--saqib-black);
     margin-bottom: 3px;
 }
 
@@ -465,7 +465,7 @@
     position: relative;
     width: 100%;
     height: 5px;
-    background-color: rgba(var(--maroof-bdr-color-rgb), .50);
+    background-color: rgba(var(--saqib-bdr-color-rgb), .50);
     border-radius: 3px;
 }
 
@@ -475,7 +475,7 @@
     width: 85%;
     height: 5px;
     border-radius: 3px;
-    background-color: var(--maroof-base);
+    background-color: var(--saqib-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -488,7 +488,7 @@
     width: 77%;
     height: 5px;
     border-radius: 3px;
-    background-color: var(--maroof-base);
+    background-color: var(--saqib-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -501,7 +501,7 @@
     width: 95%;
     height: 5px;
     border-radius: 3px;
-    background-color: var(--maroof-base);
+    background-color: var(--saqib-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -513,7 +513,7 @@
     position: absolute;
     right: -14px;
     bottom: 8px;
-    color: var(--maroof-black);
+    color: var(--saqib-black);
     line-height: 26px;
     font-size: 20px;
     text-align: center;
@@ -540,11 +540,11 @@
 }
 
 .about-two__btn {
-    color: var(--maroof-white) !important;
+    color: var(--saqib-white) !important;
 }
 
 .about-two__btn span {
-    color: var(--maroof-white) !important;
+    color: var(--saqib-white) !important;
 }
 
 /*--------------------------------------------------------------
@@ -592,7 +592,7 @@
     left: -5px;
     right: -5px;
     bottom: -5px;
-    border: 5px solid var(--maroof-white);
+    border: 5px solid var(--saqib-white);
     border-radius: 20px;
 }
 
@@ -610,7 +610,7 @@
     left: -87px;
     width: 173px;
     height: 173px;
-    background-color: var(--maroof-base);
+    background-color: var(--saqib-base);
     border-radius: 50%;
     z-index: 2;
 }
@@ -635,7 +635,7 @@
     left: 0;
     font-size: 20px;
     font-weight: 500;
-    color: var(--maroof-white);
+    color: var(--saqib-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -658,7 +658,7 @@
     position: relative;
     display: inline-block;
     font-size: 43px;
-    color: var(--maroof-white);
+    color: var(--saqib-white);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     transform: rotate(-140deg);
@@ -701,7 +701,7 @@
 .about-three__icon-list li {
     position: relative;
     display: block;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--saqib-bdr-color);
     border-radius: 20px;
     max-width: 190px;
     width: 100%;
@@ -711,7 +711,7 @@
 }
 
 .about-three__icon-list li:hover {
-    border: 1px solid var(--maroof-base);
+    border: 1px solid var(--saqib-base);
 }
 
 .about-three__icon-and-title {
@@ -730,7 +730,7 @@
     position: relative;
     display: inline-block;
     font-size: 38px;
-    color: var(--maroof-black);
+    color: var(--saqib-black);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -773,7 +773,7 @@
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--maroof-base);
+    color: var(--saqib-base);
 }
 
 .about-three__btn-box {
@@ -807,7 +807,7 @@
 .about-four__left {
     position: relative;
     display: block;
-    background-color: var(--maroof-base);
+    background-color: var(--saqib-base);
     margin-right: 30px;
     padding: 80px 80px 80px;
     padding-left: 0;
@@ -822,7 +822,7 @@
     left: -100000px;
     bottom: 0;
     right: 0;
-    background-color: var(--maroof-base);
+    background-color: var(--saqib-base);
     border-bottom-right-radius: 20px;
     z-index: -1;
 }
@@ -832,15 +832,15 @@
 }
 
 .about-four__left .section-title__tagline {
-    color: var(--maroof-white);
+    color: var(--saqib-white);
 }
 
 .about-four__left .section-title__title {
-    color: var(--maroof-white);
+    color: var(--saqib-white);
 }
 
 .about-four__text {
-    color: var(--maroof-white);
+    color: var(--saqib-white);
 }
 
 .about-four__points-box {
@@ -854,7 +854,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    border: 1px solid var(--maroof-bdr-color);
+    border: 1px solid var(--saqib-bdr-color);
     border-radius: 20px;
     padding: 19px 40px 18px;
 }
@@ -872,7 +872,7 @@
     position: relative;
     display: inline-block;
     font-size: 62px;
-    color: var(--maroof-white);
+    color: var(--saqib-white);
     transition: all 500ms linear;
     transition-delay: 0.1s;
     transform: scale(1);
@@ -891,13 +891,13 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
-    color: var(--maroof-white);
+    color: var(--saqib-white);
     margin-bottom: 9px;
 }
 
 .about-four__points-box li .content p {
     font-size: 16px;
-    color: var(--maroof-white);
+    color: var(--saqib-white);
 }
 
 
