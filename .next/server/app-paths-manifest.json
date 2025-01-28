@@ -1,5 +1,7 @@
 {
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/about/page": "app/about/page.js"
+  "/about/page": "app/about/page.js",
+  "/(projects)/project/page": "app/(projects)/project/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js",
+  "/(services)/skyline-roofing-solutions/page": "app/(services)/skyline-roofing-solutions/page.js"
 }
