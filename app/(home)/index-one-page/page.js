@@ -24,7 +24,7 @@ export default function Home() {
                 <ServicesOne />
                 <CounterOne />
                 <CTAOne />
-                <TeamOne />
+                {/* <TeamOne /> */}
                 <ContactOne />
                 <WeServe />
                 <TestimonialOne />

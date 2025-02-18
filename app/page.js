@@ -5,7 +5,7 @@ import SlidingText from "@/components/sections/home1/SlidingText"
 import ServicesOne from "@/components/sections/home1/ServicesOne"
 import CounterOne from "@/components/sections/home1/CounterOne"
 import CTAOne from "@/components/sections/home1/CTAOne"
-import TeamOne from "@/components/sections/home1/TeamOne"
+// import TeamOne from "@/components/sections/home1/TeamOne"
 import ContactOne from "@/components/sections/home1/ContactOne"
 import WeServe from "@/components/sections/home1/WeServe"
 import TestimonialOne from "@/components/sections/home1/TestimonialOne"
@@ -24,7 +24,7 @@ export default function Home() {
                 <ServicesOne />
                 <CounterOne />
                 <CTAOne />
-                <TeamOne />
+                {/* <TeamOne /> */}
                 <ContactOne />
                 <WeServe />
                 <TestimonialOne />

@@ -7,10 +7,10 @@ import Link from "next/link";
 export default function Home() {
     const [serviceDetails] = useState({
         title: "Rise Above the Rest with Roof",
-        text1: "Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle, tile, metal, and flat roofs. With their expertise, they ensure the longevity",
+        text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
         image1: "/assets/images/services/service-details-img-1-3.jpg",
         title2: "Service all details",
-        text2: "Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle, tile, metal, and flat roofs. With their expertise, they ensure the longevity",
+        text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
         points: [
             "Transforming houses into homes with superior",
             "Experience peace of mind under a sturdy",
@@ -22,8 +22,8 @@ export default function Home() {
             "/assets/images/services/service-details-images-1-2.jpg",
         ],
         content3Title: "Elevating Excellence",
-        text3: "Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle, tile, metal, and flat roofs. With their expertise, they ensure the longevity",
-        text4: "Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for",
+        text3: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text4: "",
         features: [
             {
                 icon: "icon-crane-1",

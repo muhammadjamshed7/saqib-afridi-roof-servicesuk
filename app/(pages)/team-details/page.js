@@ -32,7 +32,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <p className="team-details__top-text">
-                                        Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle, tile, metal, and flat roofs. With their expertise, they ensure the longevity and durability of roofs Roof Service is a category encompasses.
+                                        A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution. and durability of roofs Roof Service is a category encompasses.
                                     </p>
                                     <div className="team-details__btn-contact-inner">
                                         <div className="team-details__btn-contact">

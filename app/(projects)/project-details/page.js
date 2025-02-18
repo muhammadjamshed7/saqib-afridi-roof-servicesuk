@@ -40,7 +40,7 @@ export default function Home() {
   const [projectDetails] = useState({
     title: "Rise Above the Rest with Roof",
     description:
-      "Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle, tile, metal, and flat roofs. With their expertise, they ensure the longevity.",
+      "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution..",
     points: [
       "Rise Above the Rest with Roof Service",
       "Roof Service Elevating Excellence",
@@ -51,7 +51,7 @@ export default function Home() {
     ],
     secondaryTitle: "Elevating Excellence",
     secondaryDescription:
-      "Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle, tile, metal, and flat roofs. With their expertise, they ensure the longevity.",
+      "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution..",
   });
 
   return (

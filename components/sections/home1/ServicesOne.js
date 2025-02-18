@@ -63,8 +63,8 @@ const swiperOptions = {
 const services = [
   {
     imgName: 'services-1-1.jpg',
-    title: 'Reliable Roofing Pros',
-    link: '/reliable-roof-repair',
+    title: 'Pitched roof',
+    link: '/pitched-roof',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {

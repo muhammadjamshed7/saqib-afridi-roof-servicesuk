@@ -13,19 +13,19 @@ export const testimonials = [
     imgSrc: '/assets/images/testimonial/testimonial-2-1.png',
     name: 'James Anderson',
     company: 'Roof Masters',
-    text: 'Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle.',
+    text: ' various types of roofs, such as shingle.',
   },
   {
     imgSrc: '/assets/images/testimonial/testimonial-2-2.png',
     name: 'Robert Son',
     company: 'Roof Masters',
-    text: 'Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle.',
+    text: ' various types of roofs, such as shingle.',
   },
   {
     imgSrc: '/assets/images/testimonial/testimonial-2-3.png',
     name: 'Adam Smith',
     company: 'Roof Masters',
-    text: 'Roof Service is a category that encompasses a range of services related to roofs. These services include roof installation, repair, maintenance, and inspection. Roofing experts provide solutions for various types of roofs, such as shingle.',
+    text: ' various types of roofs, such as shingle.',
   },
 ];
 

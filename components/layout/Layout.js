@@ -10,13 +10,13 @@ import Footer2 from './footer/Footer2'
 import Footer3 from './footer/Footer3'
 import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
-import Header2 from './header/Header2'
-import Header3 from './header/Header3'
-import Header4 from './header/Header4'
-import Header5 from './header/Header5'
-import Header6 from './header/Header6'
-import Header7 from './header/Header7'
-import Header8 from "./header/Header8"
+// import Header2 from './header/Header2'
+// import Header3 from './header/Header3'
+// import Header4 from './header/Header4'
+// import Header5 from './header/Header5'
+// import Header6 from './header/Header6'
+// import Header7 from './header/Header7'
+// import Header8 from "./header/Header8"
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
     const [scroll, setScroll] = useState(0)

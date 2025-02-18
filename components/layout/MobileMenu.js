@@ -52,12 +52,9 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               <li className={isActive.key === "home" ? "dropdown current" : "dropdown"}>
                 <Link href="/" onClick={handleMobileMenu}>Home</Link>
                 <ul style={{ display: `${isActive.key === "home" ? "block" : "none"}` }}>
-                  <li><Link href="/" onClick={handleMobileMenu}>Home One</Link></li>
-                  <li><Link href="/index-2" onClick={handleMobileMenu}>Home Two</Link></li>
-                  <li><Link href="/index-3" onClick={handleMobileMenu}>Home Three</Link></li>
-                  <li><Link href="/index-4" onClick={handleMobileMenu}>Home Four</Link></li>
+                 
                   <li className={isActive.subMenuKey === "header-styles" ? "dropdown current" : "dropdown"}>
-                    <a href="#" onClick={() => handleToggle("home", "header-styles")}>Header Styles</a>
+                    {/* <a href="#" onClick={() => handleToggle("home", "header-styles")}>Header Styles</a>
                     <ul style={{ display: `${isActive.subMenuKey === "header-styles" ? "block" : "none"}` }}>
                       <li><Link href="/" onClick={handleMobileMenu}>Header One</Link></li>
                       <li><Link href="/index-2" onClick={handleMobileMenu}>Header Two</Link></li>
@@ -66,9 +63,9 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     </ul>
                     <div className={isActive.subMenuKey === "header-styles" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("home", "header-styles")}>
                       <span className="fa fa-angle-right" />
-                    </div>
+                    </div> */}
                   </li>
-                  <li className={isActive.subMenuKey === "one-page-styles" ? "dropdown current" : "dropdown"}>
+                  {/* <li className={isActive.subMenuKey === "one-page-styles" ? "dropdown current" : "dropdown"}>
                     <a href="#" onClick={() => handleToggle("home", "one-page-styles")}>One Page Styles</a>
                     <ul style={{ display: `${isActive.subMenuKey === "one-page-styles" ? "block" : "none"}` }}>
                       <li><Link href="/index-one-page" onClick={handleMobileMenu}>One Page Styles One</Link></li>
@@ -79,7 +76,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className={isActive.subMenuKey === "one-page-styles" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("home", "one-page-styles")}>
                       <span className="fa fa-angle-right" />
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className={isActive.key === "home" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("home")}>
                   <span className="fa fa-angle-right" />
@@ -87,14 +84,14 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               </li>
               <li><Link href="/about" onClick={handleMobileMenu}>About Us</Link></li>
               <li className={isActive.key === "pages" ? "dropdown current" : "dropdown"}>
-                <a href="#" onClick={() => handleToggle("pages")}>Pages</a>
-                <ul style={{ display: `${isActive.key === "pages" ? "block" : "none"}` }}>
+                {/* <a href="#" onClick={() => handleToggle("pages")}>Pages</a> */}
+                {/* <ul style={{ display: `${isActive.key === "pages" ? "block" : "none"}` }}>
                   <li><Link href="/team" onClick={handleMobileMenu}>Team</Link></li>
                   <li><Link href="/team-details" onClick={handleMobileMenu}>Team Details</Link></li>
                   <li><Link href="/testimonials" onClick={handleMobileMenu}>Testimonials</Link></li>
                   <li><Link href="/faq" onClick={handleMobileMenu}>Faq</Link></li>
                   <li><Link href="/404" onClick={handleMobileMenu}>404 Error</Link></li>
-                </ul>
+                </ul> */}
                 <div className={isActive.key === "pages" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("pages")}>
                   <span className="fa fa-angle-right" />
                 </div>
@@ -115,10 +112,10 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               </li>
               <li className={isActive.key === "projects" ? "dropdown current" : "dropdown"}>
                 <a href="#" onClick={() => handleToggle("projects")}>Projects</a>
-                <ul style={{ display: `${isActive.key === "projects" ? "block" : "none"}` }}>
+                {/* <ul style={{ display: `${isActive.key === "projects" ? "block" : "none"}` }}>
                   <li><Link href="/project" onClick={handleMobileMenu}>Projects</Link></li>
                   <li><Link href="/project-details" onClick={handleMobileMenu}>Project Details</Link></li>
-                </ul>
+                </ul> */}
                 <div className={isActive.key === "projects" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("projects")}>
                   <span className="fa fa-angle-right" />
                 </div>

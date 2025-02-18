@@ -52,10 +52,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               <li className={isActive.key === "home" ? "dropdown current" : "dropdown"}>
                 <Link href="/" onClick={handleMobileMenu}>Home</Link>
                 <ul style={{ display: `${isActive.key === "home" ? "block" : "none"}` }}>
-                  <li><Link href="/" onClick={handleMobileMenu}>Home One</Link></li>
-                  <li><Link href="/index-2" onClick={handleMobileMenu}>Home Two</Link></li>
-                  <li><Link href="/index-3" onClick={handleMobileMenu}>Home Three</Link></li>
-                  <li><Link href="/index-4" onClick={handleMobileMenu}>Home Four</Link></li>
+                 
                   <li className={isActive.subMenuKey === "header-styles" ? "dropdown current" : "dropdown"}>
                     <a href="#" onClick={() => handleToggle("home", "header-styles")}>Header Styles</a>
                     <ul style={{ display: `${isActive.subMenuKey === "header-styles" ? "block" : "none"}` }}>
