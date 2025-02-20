@@ -91,7 +91,7 @@ export default function Banner() {
                   <div className="main-slider__call-number">
                     <p>Need help?</p>
                     <h5>
-                      <Link href="tel:8085550111">(808) 555-0111</Link>
+                      <Link href="tel:8085550111">+447832766458</Link>
                     </h5>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export default function Banner() {
                   <div className="main-slider__call-number">
                     <p>Need help?</p>
                     <h5>
-                      <Link href="tel:8085550111">(808) 555-0111</Link>
+                      <Link href="tel:8085550111">+447832766458</Link>
                     </h5>
                   </div>
                 </div>
@@ -229,7 +229,7 @@ export default function Banner() {
                   <div className="main-slider__call-number">
                     <p>Need help?</p>
                     <h5>
-                      <Link href="tel:8085550111">(808) 555-0111</Link>
+                      <Link href="tel:8085550111">+447832766458</Link>
                     </h5>
                   </div>
                 </div>

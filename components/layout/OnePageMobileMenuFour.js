@@ -51,7 +51,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
             <ul className="main-menu__list one-page-scroll-menu">
               <li className={isActive.key === "home" ? "dropdown current" : "dropdown"}>
                 <Link href="/" onClick={handleMobileMenu}>Home</Link>
-                <ul style={{ display: `${isActive.key === "home" ? "block" : "none"}` }}>
+                {/* <ul style={{ display: `${isActive.key === "home" ? "block" : "none"}` }}>
                  
                   <li className={isActive.subMenuKey === "header-styles" ? "dropdown current" : "dropdown"}>
                     <a href="#" onClick={() => handleToggle("home", "header-styles")}>Header Styles</a>
@@ -77,7 +77,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                       <span className="fa fa-angle-right" />
                     </div>
                   </li>
-                </ul>
+                </ul> */}
                 <div className={isActive.key === "home" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("home")}>
                   <span className="fa fa-angle-right" />
                 </div>
@@ -109,7 +109,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
             </li>
             <li>
               <i className="fas fa-phone" />
-              <a href="tel:666-888-0000">666 888 0000</a>
+              <a href="tel:666-888-0000">+447832766458</a>
             </li>
           </ul>
           <div className="mobile-nav__top">
