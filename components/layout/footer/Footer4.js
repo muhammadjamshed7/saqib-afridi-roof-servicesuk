@@ -10,8 +10,8 @@ const footerData = {
     { href: '#', icon: 'icon-pinterest', name: 'Pinterest' },
   ],
   contact: {
-    email: 'debra.holt@example.com',
-    phones: ['01245789321', '012457895146'],
+    email: 'Saqibshahkaswal@gmail.com',
+    phones: ['+447832766458', ''],
   },
   services: [
     { href: '/skyline-roofing-solutions', text: 'Roof Renewal' },
@@ -126,7 +126,7 @@ export default function Footer4() {
         <div className="site-footer-four__bottom">
           <div className="container">
             <div className="site-footer-four__bottom-inner">
-              <p className="site-footer-four__bottom-text">© themehealer 2024 | All Rights Reserved</p>
+              <p className="site-footer-four__bottom-text">© SmartWeb Labs Tech| All Rights Reserved</p>
               <ul className="list-unstyled site-footer-four__bottom-menu">
                 {footerData.bottomMenu.map((menu, index) => (
                   <li key={index}>

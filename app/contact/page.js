@@ -5,14 +5,14 @@ import Link from "next/link";
 export default function Home() {
     const contactInfo = {
         phone: [
-            { number: "012 345 678 9101", link: "tel:0123456789101" },
-            { number: "(208) 555-0112", link: "tel:2085550112" }
+            { number: "+447832766458", link: "tel:0123456789101" },
+            { number: "", link: "tel:2085550112" }
         ],
         email: [
-            { address: "sarazbhuiyan0214@gmail.com", link: "mailto:sarazbhuiyan0214@gmail.com" },
-            { address: "saiyam@gmail.com", link: "mailto:saiyam@gmail.com" }
+            { address: "Saqibshahkaswal@gmail.com", link: "mailto:Saqibshahkaswal@gmail.com" },
+            
         ],
-        location: "Mirpur 10 road Apon Bhobon, Dhaka, Bangladesh"
+        location: "United Kingdom"
     };
 
 

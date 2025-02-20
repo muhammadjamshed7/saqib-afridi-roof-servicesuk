@@ -3,7 +3,7 @@ import Link from 'next/link';
 // Footer data
 const footerData = {
   backgroundImage: '/assets/images/shapes/site-footer-two-bg-shape.png',
-  logoSrc: '/assets/images/resources/footer-logo-2.png',
+  logoSrc: '/assets/images/resources/logo.png',
   aboutText: (
     <>
       Transforming house into homes with<br />
@@ -11,12 +11,12 @@ const footerData = {
       planners help people to gain
     </>
   ),
-  contactEmail: 'debra.holt@example.com',
+  contactEmail: 'Saqibshahkaswal@gmail.com',
   contactAddress: `3891 Ranchview Dr.
                     Richardson`,
-  contactPhone1: '01245789321',
-  contactPhone2: '012457895146',
-  footerText: `© themehealer 2024 | All Rights Reserved`,
+  contactPhone1: '+447832766458',
+  contactPhone2: '',
+  footerText: `© SmartWeb Labs Tech| All Rights Reserved`,
   footerLinks: [
     { href: '/about', text: 'Trams & Condition' },
     { href: '/about', text: 'Privacy Policy' },

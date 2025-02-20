@@ -29,7 +29,7 @@ const footerData = {
     { href: 'testimonials', text: 'Testimonial' },
   ],
   contact: {
-    email: 'debra.holt@example.com',
+    email: 'Saqibshahkaswal@gmail.com',
     address: '3891 Ranchview Dr. Richardson',
     address: (
       <>
@@ -37,9 +37,9 @@ const footerData = {
         Richardson
       </>
     ),
-    phone: ['01245789321','012457895146'],
+    phone: ['+447832766458',''],
   },
-  bottomText: '© themehealer 2024 | All Rights Reserved',
+  bottomText: '© SmartWeb Labs Tech| All Rights Reserved',
   bottomLinks: [
     { href: 'terms', text: 'Terms & Condition' },
     { href: 'privacy', text: 'Privacy Policy' },

@@ -75,7 +75,7 @@ export default function Footer1() {
                           <span className="icon-envelope"></span>
                         </div>
                         <div className="text">
-                          <p><a href="mailto:debra.holt@example.com">debra.holt@example.com</a></p>
+                          <p><a href="mailto:Saqibshahkaswal@gmail.com">Saqibshahkaswal@gmail.com</a></p>
                         </div>
                       </li>
                       <li>
@@ -91,7 +91,7 @@ export default function Footer1() {
                           <span className="icon-call"></span>
                         </div>
                         <div className="text">
-                          <p><a href="tel:01245789321">01245789321</a>, <a href="tel:012457895146">012457895146</a></p>
+                          <p><a href="tel:+447832766458">+447832766458</a>, <a href="tel:"></a></p>
                         </div>
                       </li>
                     </ul>
@@ -119,7 +119,7 @@ export default function Footer1() {
       <div className="site-footer__bottom">
         <div className="container">
           <div className="site-footer__bottom-inner">
-            <p className="site-footer__bottom-text">© themehealer 2024 | All Rights Reserved</p>
+            <p className="site-footer__bottom-text">© SmartWeb Labs Tech| All Rights Reserved</p>
             <ul className="list-unstyled site-footer__bottom-menu">
               <li><Link href="/about">Terms & Condition</Link></li>
               <li><Link href="/about">Privacy Policy</Link></li>
