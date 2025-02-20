@@ -41,7 +41,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
           <div className="logo-box">
             <Link href="/" aria-label="logo image">
               <img
-                src="/assets/images/resources/logo-1.png" // Adjusted path for Next.js
+                src="/assets/images/resources/logo.png" // Adjusted path for Next.js
                 width={140}
                 alt="Logo"
               />

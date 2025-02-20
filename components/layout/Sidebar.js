@@ -19,7 +19,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     <div className="logo">
                                         <Link href="/" legacyBehavior>
                                             <a>
-                                                <img src="/assets/images/resources/logo-1.png" alt="Logo" />
+                                                <img src="/assets/images/resources/logo.png" alt="Logo" />
                                             </a>
                                         </Link>
                                     </div>

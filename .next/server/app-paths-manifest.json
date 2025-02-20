@@ -1,9 +1,5 @@
 {
-  "/about/page": "app/about/page.js",
-  "/(services)/reliable-roof-repair/page": "app/(services)/reliable-roof-repair/page.js",
   "/page": "app/page.js",
-  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js",
-  "/(services)/skyline-roofing-solutions/page": "app/(services)/skyline-roofing-solutions/page.js",
-  "/(projects)/project-details/page": "app/(projects)/project-details/page.js",
-  "/(services)/top-notch-roofing-restoration/page": "app/(services)/top-notch-roofing-restoration/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
