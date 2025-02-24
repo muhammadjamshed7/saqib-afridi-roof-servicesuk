@@ -4,7 +4,7 @@ import ServicesTwo from "@/components/sections/home2/ServicesTwo"
 import AboutTwo from "@/components/sections/home2/AboutTwo"
 import CounterTwo from "@/components/sections/home2/CounterTwo"
 import ProjectTwo from "@/components/sections/home2/ProjectTwo"
-import TestimonialTwo from "@/components/sections/home2/TestimonialTwo"
+// import TestimonialTwo from "@/components/sections/home2/TestimonialTwo"
 import SlidingText from "@/components/sections/home2/SlidingText"
 import TeamTwo from "@/components/sections/home2/TeamTwo"
 import ServiceThree from "@/components/sections/home2/ServiceThree"
@@ -23,7 +23,6 @@ export default function Home() {
                 <AboutTwo />
                 <CounterTwo />
                 <ProjectTwo />
-                <TestimonialTwo />
                 <SlidingText />
                 <TeamTwo />
                 <ServiceThree />
