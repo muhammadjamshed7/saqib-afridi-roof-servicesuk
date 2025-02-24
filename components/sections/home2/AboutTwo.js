@@ -54,9 +54,7 @@ export default function AboutTwo() {
                   </h2>
                 </div>
                 <p className="about-two__text">
-                  Roof service involves the installation, maintenance, and repair of roofs for the
-                  residential and commercial buildings. The contractors offer a range of and services
-                  Roof service involves
+                  hhhhhhhhhhhhhhhhhhhh
                 </p>
                 <ul className="about-two__progress-box list-unstyled">
                   <li>
