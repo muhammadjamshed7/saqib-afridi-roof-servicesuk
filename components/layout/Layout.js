@@ -6,9 +6,6 @@ import Breadcrumb from './Breadcrumb'
 import SearchPopup from "./SearchPopup"
 import Sidebar from "./Sidebar"
 import Footer1 from './footer/Footer1'
-// import Footer2 from './footer/Footer2'
-// import Footer3 from './footer/Footer3'
-// import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
@@ -68,9 +65,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
                 {!footerStyle && < Footer1 />}
                 {footerStyle == 1 ? < Footer1 /> : null}
-                {/* {footerStyle == 2 ? < Footer2 /> : null}
-                {footerStyle == 3 ? < Footer3 /> : null}
-                {footerStyle == 4 ? < Footer4 /> : null} */}
             </div>
             <BackToTop scroll={scroll} />
         </>
