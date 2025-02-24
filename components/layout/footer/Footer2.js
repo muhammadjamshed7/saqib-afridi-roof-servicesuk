@@ -6,9 +6,7 @@ const footerData = {
   logoSrc: '/assets/images/resources/logo.png',
   aboutText: (
     <>
-      Transforming house into homes with<br />
-      super roofing craftsmanship Financial<br />
-      planners help people to gain
+      hhhhhhhh
     </>
   ),
   contactEmail: 'Saqibshahkaswal@gmail.com',
