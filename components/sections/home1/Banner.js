@@ -34,21 +34,16 @@ export default function Banner() {
         <SwiperSlide className="swiper-slide">
           <div
             className="main-slider__bg"
-            style={{ backgroundImage: 'url(/assets/images/backgrounds/slider-1-1.jpg)' }}
+            style={{ backgroundImage: 'url(/assets/images/backgrounds/slider1-1.jpg)' }}
           />
-          <div className="main-slider__shape-1" />
-          <div
-            className="main-slider__shape-2"
-            style={{ backgroundImage: 'url(/assets/images/shapes/main-slider-shape-2.png)' }}
-          />
+          {/* <div className="main-slider__shape-1" /> */}
+          
           <div className="main-slider__img">
-            <img src="/assets/images/resources/main-slider-img-1-1.png" alt="" />
+            <img src="/assets/images/resources/main-slider-img-1-1.png" width="600px" height="400px" alt="" />
           </div>
           <div className="container">
             <div className="main-slider__content">
-              <div className="main-slider__content-shape-1">
-                <img src="/assets/images/shapes/main-slider-content-shape-1.png" alt="" />
-              </div>
+              
               <h2 className="main-slider__title">
                 Crafting <span>roofs</span> <br /> that withstand <br /> the test time
               </h2>
