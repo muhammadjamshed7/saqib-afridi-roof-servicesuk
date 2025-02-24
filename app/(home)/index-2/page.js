@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout"
-import Banner from "@/components/sections/home2/Banner"
+// import Banner from "@/components/sections/home2/Banner"
 import ServicesTwo from "@/components/sections/home2/ServicesTwo"
 import AboutTwo from "@/components/sections/home2/AboutTwo"
 import CounterTwo from "@/components/sections/home2/CounterTwo"
@@ -17,8 +17,8 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={2} footerStyle={2}>
-                <Banner />
-                <ServicesTwo />
+                {/* <Banner /> */}
+                {/* <ServicesTwo />
                 <AboutTwo />
                 <CounterTwo />
                 <ProjectTwo />
@@ -28,7 +28,7 @@ export default function Home() {
                 <BrandOne />
                 <FAQTwo />
                 <BlogTwo />
-                <CTATwo />
+                <CTATwo /> */}
             </Layout>
         </>
     )
