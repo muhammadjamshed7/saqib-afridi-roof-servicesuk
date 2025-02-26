@@ -53,33 +53,13 @@ export default function Home() {
                             >
                                 <div className="about-one__img">
                                 <img
-                                    src="/assets/images/resources/about-one-img-1.png"
-                                    alt=""
+                                    src="https://images.unsplash.com/photo-1726589004565-bedfba94d3a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    
                                 />
-                                <div className="about-one__shape-3">
-                                    <img
-                                    src="/assets/images/shapes/about-shape-3.png"
-                                    alt=""
-                                    />
-                                </div>
-                                <div className="about-one__shape-4">
-                                    <img
-                                    src="/assets/images/shapes/about-shape-4.png"
-                                    alt=""
-                                    />
-                                </div>
-                                <div className="about-one__shape-1">
-                                    <img
-                                    src="/assets/images/shapes/about-shape-1.png"
-                                    alt=""
-                                    />
-                                </div>
-                                <div className="about-one__shape-2">
-                                    <img
-                                    src="/assets/images/shapes/about-shape-2.png"
-                                    alt=""
-                                    />
-                                </div>
+                                
+                                
+                                
+                            
                                 <div className="about-one__happy-client">
                                     <div className="about-one__client-img-box">
                                     <ul className="about-one__client-img-list list-unstyled">
@@ -932,8 +912,8 @@ export default function Home() {
 
                     {/* CTA Two Start */}
                     <CTASection
-                        backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
-                        imgSrc="assets/images/resources/cta-two-img-1.png"
+                        backgroundImage="https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538"
+                        imgSrc="https://images.unsplash.com/photo-1635424709961-f3a150459ad4?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         title="One Shingle at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"

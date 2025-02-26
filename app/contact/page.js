@@ -38,10 +38,11 @@ export default function Home() {
                                 <h3 className="contact-page__title">Get In Touch</h3>
                                 <form
                                     className="contact-form-validated contact-page__form"
-                                    action="assets/inc/sendemail.php"
-                                    method="post"
+                                    action="https://api.web3forms.com/submit" method="POST"
+                                    
                                     noValidate
                                 >
+                                      <input type="hidden" name="access_key" value="298e865f-1c35-44f5-acd4-8387cc350e8e"></input>
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6">
                                             <div className="contact-page__input-box">

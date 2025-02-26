@@ -39,7 +39,7 @@ export default function Banner() {
           
           
           <div className="main-slider__img">
-            <img src="/assets/images/resources/main-slider-img-1-1.png" width="600px" height="400px" alt="" />
+            <img src="https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538" width="600px" height="400px" alt="" />
           </div>
           <div className="container">
             <div className="main-slider__content">
@@ -98,7 +98,7 @@ export default function Banner() {
         <SwiperSlide className="swiper-slide">
           <div
             className="main-slider__bg"
-            style={{ backgroundImage: 'url(/assets/images/backgrounds/slider-1-2.jpg)' }}
+            style={{ backgroundImage: 'url(https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538)' }}
           />
           <div className="main-slider__shape-1" />
           <div

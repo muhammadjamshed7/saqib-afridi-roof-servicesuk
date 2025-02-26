@@ -13,7 +13,7 @@ export default function ServicesPage({ services }) {
                 <div className="services-one__single">
                   <div className="services-one__img-box">
                     <div className="services-one__img">
-                      <img src={service.imgSrc} alt={service.title} />
+                      <img src={service.imgSrc} alt={service.title} height={"250px"} />
                     </div>
                     <div className="services-one__icon">
                       <span className={service.iconClass} />
