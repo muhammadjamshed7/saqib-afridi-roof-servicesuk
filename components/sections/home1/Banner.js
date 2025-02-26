@@ -45,7 +45,7 @@ export default function Banner() {
             <div className="main-slider__content">
               
               <h2 className="main-slider__title">
-                Crafting <span>roofs</span> <br /> that withstand <br /> the test time
+                Crafting <span>roofs</span> <br /> that withstand <br /> the best time
               </h2>
               <ul className="list-unstyled main-slider__counter">
                 <li>
