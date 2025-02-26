@@ -36,7 +36,7 @@ export default function Banner() {
             className="main-slider__bg"
             style={{ backgroundImage: 'url(/assets/images/backgrounds/slider1-1.jpg)' }}
           />
-          {/* <div className="main-slider__shape-1" /> */}
+          
           
           <div className="main-slider__img">
             <img src="/assets/images/resources/main-slider-img-1-1.png" width="600px" height="400px" alt="" />
@@ -52,7 +52,7 @@ export default function Banner() {
                   <div className="main-slider__counter-single">
                     <div className="main-slider__count count-box">
                       <h3 className="count-text">
-                        <CountUp end={30} duration={1.5} />
+                        <CountUp end={5} duration={1.5} />
                       </h3>
                       <span>k</span>
                       <span>+</span>

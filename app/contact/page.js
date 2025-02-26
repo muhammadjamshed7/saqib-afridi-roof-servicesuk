@@ -78,11 +78,13 @@ export default function Home() {
                                                 <div className="select-box">
                                                     <select className="selectmenu wide">
                                                         <option value="">Choose an Option</option>
-                                                        <option>Type Of Service 01</option>
-                                                        <option>Type Of Service 02</option>
-                                                        <option>Type Of Service 03</option>
-                                                        <option>Type Of Service 04</option>
-                                                        <option>Type Of Service 05</option>
+                                                        <option>Pitched roof</option>
+                                                        <option>flat roof</option>
+                                                        <option>gutter,fascia and soffits</option>
+                                                        <option>chimney & lead</option>
+                                                        <option>roof repairs</option>
+                                                        <option>roof and gutter cleaning</option>
+                                                        <option>roof maintenance</option>
                                                     </select>
                                                 </div>
                                             </div>
