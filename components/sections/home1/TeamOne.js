@@ -30,7 +30,7 @@ export default function TeamOne() {
                   <h3 className="team-one__title">
                     <Link href="/team-details">Brooklyn Simmons</Link>
                   </h3>
-                  <p className="team-one__sub-title">Roof Renewal</p>
+                  {/* <p className="team-one__sub-title">Roof Renewal</p> */}
                   <p className="team-one__text">
                     Roof service involves the installation, maintenance, and repair of roofs for residential and commercial properties.
                   </p>
