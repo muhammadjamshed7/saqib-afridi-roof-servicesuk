@@ -101,7 +101,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <ul style={{ display: `${isActive.key === "services" ? "block" : "none"}` }}>
                   <li><Link href="/services" onClick={handleMobileMenu}>Services</Link></li>
                   <li><Link href="/peak-performance-roofing" onClick={handleMobileMenu}>Peak Performance Roofing</Link></li>
-                  <li><Link href="/skyline-roofing-solutions" onClick={handleMobileMenu}>Skyline Roofing Solutions</Link></li>
+                  <li><Link href="/skyline-roofing-solutions" onClick={handleMobileMenu}>Gutter, fascia and soffits</Link></li>
                   <li><Link href="/sure-guard-roofing-services" onClick={handleMobileMenu}>Sure Guard Roofing Services</Link></li>
                   <li><Link href="/reliable-roof-repair" onClick={handleMobileMenu}>Reliable Roof Repair</Link></li>
                   <li><Link href="/top-notch-roofing-restoration" onClick={handleMobileMenu}>Top Notch Roofing Restoration</Link></li>

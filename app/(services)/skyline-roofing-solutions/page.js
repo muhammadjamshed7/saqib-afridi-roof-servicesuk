@@ -7,11 +7,11 @@ import Link from "next/link";
 export default function Home() {
     // State to hold dynamic content
     const [serviceDetails] = useState({
-        title: "Rise Above the Rest with Roof",
-        text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
-        image1: "assets/images/services/service-details-img-1-2.jpg",
+        title: "Gutter, fascia and soffits",
+        text1: "Gutters, fascia, and soffits  are essential components of a well-structured roofing system, ensuring both functionality and aesthetics.  Gutters  collect and direct rainwater away from the roof and foundation, preventing water damage and erosion.  Fascia  is the horizontal board that runs along the roof edge, supporting the gutter system while providing a clean, finished look.  Soffits  are the underside panels beneath the eaves, promoting ventilation and preventing moisture buildup in the attic. Together, these elements enhance the roof's durability, improve airflow, and contribute to the overall appearance of the property.",
+        image1: "assets/images/roof/g2.webp",
         title2: "Service all details",
-        text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text2: "Our  gutter, fascia, and soffit services  ensure superior protection, ventilation, and aesthetic appeal for your property. Proper installation prevents water damage, improves airflow, and enhances curb appeal, extending the lifespan of your roof and home.",
         points: [
             "Transforming houses into homes with superior",
             "Experience peace of mind under a sturdy",
@@ -19,11 +19,11 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "assets/images/services/service-details-images-1-1.jpg",
-            "assets/images/services/service-details-images-1-2.jpg",
+            "assets/images/roof/g3.webp",
+            
         ],
         content3Title: "Elevating Excellence",
-        text3: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text3: " Elevating Excellence in Gutters, Fascia, and Soffits At Your Company Name, we take pride in  elevating excellence  through high-quality  gutters, fascia, and soffits  that enhance both the functionality and aesthetics of your property. Our expertly crafted  gutter systems  ensure efficient water drainage, protecting your roof and foundation from potential damage. The  fascia  not only supports the gutters but also adds a sleek, polished finish to your roofline, while our  soffits  provide crucial ventilation to prevent moisture buildup and improve airflow. Designed for durability and style, our solutions are tailored to withstand the elements while complementing your home’s architecture. With precision installation and premium materials, we deliver  exceptional protection, lasting performance, and unmatched curb appeal  for your property.",
         text4: "",
         features: [
             {
@@ -41,14 +41,14 @@ export default function Home() {
         ],
         sidebarLinks: [
             { href: "peak-performance-roofing", text: "Peak Performance Roofing" },
-            { href: "skyline-roofing-solutions", text: "Skyline Roofing Solutions" },
+            { href: "skyline-roofing-solutions", text: "Gutter, fascia and soffits" },
             { href: "sure-guard-roofing-services", text: "Sure Guard Roofing Services" },
             { href: "reliable-roof-repair", text: "Reliable Roof Repair" },
             { href: "top-notch-roofing-restoration", text: "Top Notch Roofing Restoration" },
         ],
         ctaSection: {
             backgroundImage: "assets/images/backgrounds/cta-two-bg.jpg",
-            imgSrc: "assets/images/resources/cta-two-img-1.png",
+            imgSrc: "assets/images/roof/g5.jpg",
             title: "One Shingle at a Time",
             text: "Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings.",
             buttonText: "Contact Us",
@@ -58,7 +58,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Skyline Roofing Solutions">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Gutter, fascia and soffits">
                 <div>
                     {/* Service Details Start */}
                     <section className="service-details">

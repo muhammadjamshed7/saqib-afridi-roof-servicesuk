@@ -9,7 +9,7 @@ export default function Home() {
     const [serviceDetails] = useState({
         title: "Rise Above the Rest with Roof",
         text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
-        image1: "assets/images/services/service-details-img-1-1.jpg",
+        image1: "assets/images/roof/pitchroof.jpeg",
         title2: "Service all details",
         text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
         points: [
@@ -19,8 +19,8 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "assets/images/services/service-details-images-1-1.jpg",
-            "assets/images/services/service-details-images-1-2.jpg",
+            "assets/images/roof/pitchedroof1.jpg",
+            
         ],
         content3Title: "Elevating Excellence",
         text3: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
@@ -41,7 +41,7 @@ export default function Home() {
         ],
         sidebarLinks: [
             { href: "peak-performance-roofing", text: "Peak Performance Roofing" },
-            { href: "skyline-roofing-solutions", text: "Skyline Roofing Solutions" },
+            { href: "skyline-roofing-solutions", text: "Gutter, fascia and soffits" },
             { href: "sure-guard-roofing-services", text: "Sure Guard Roofing Services" },
             { href: "reliable-roof-repair", text: "Reliable Roof Repair" },
             { href: "top-notch-roofing-restoration", text: "Top Notch Roofing Restoration" },
@@ -146,7 +146,7 @@ export default function Home() {
                     {/* CTA Two Start */}
                         <CTASection
                         backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
-                        imgSrc="assets/images/resources/cta-two-img-1.png"
+                        imgSrc="assets/images/roof/padvantage.jpg"
                         title="One Shingle at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"

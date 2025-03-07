@@ -7,8 +7,8 @@ import Link from "next/link";
 export default function Home() {
     const [serviceDetails] = useState({
         title: "Rise Above the Rest with Roof",
-        text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
-        image1: "/assets/images/services/service-details-img-1-5.jpg",
+        text1: "A pitched roof  is a sloped roofing structure designed to efficiently shed rainwater and snow while enhancing a building's aesthetic appeal. Commonly used in residential and commercial construction, pitched roofs offer excellent durability, improved insulation, and enhanced ventilation. They come in various styles, including gable, hip, mansard, and gambrel, each providing unique structural and design benefits. With their classic and functional appeal, pitched roofs are a popular choice for homeowners seeking long-term protection and energy efficiency.",
+        image1: "/assets/images/roof/pitchroof.jpeg",
         title2: "Service all details",
         text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
         points: [
@@ -40,7 +40,7 @@ export default function Home() {
         ],
         sidebarLinks: [
             { href: "/peak-performance-roofing", text: "Peak Performance Roofing" },
-            { href: "/skyline-roofing-solutions", text: "Skyline Roofing Solutions" },
+            { href: "/skyline-roofing-solutions", text: "Gutter, fascia and soffits" },
             { href: "/sure-guard-roofing-services", text: "Sure Guard Roofing Services" },
             { href: "/reliable-roof-repair", text: "Reliable Roof Repair" },
             { href: "/top-notch-roofing-restoration", text: "Top Notch Roofing Restoration" },

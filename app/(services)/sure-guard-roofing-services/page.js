@@ -39,8 +39,8 @@ export default function Home() {
             },
         ],
         sidebarLinks: [
-            { href: "/peak-performance-roofing", text: "Peak Performance Roofing" },
-            { href: "/skyline-roofing-solutions", text: "Skyline Roofing Solutions" },
+            { href: "/peak-performance-roofing", text: "Pitch Roof Services" },
+            { href: "/skyline-roofing-solutions", text: "Gutter, fascia and soffits" },
             { href: "/sure-guard-roofing-services", text: "Sure Guard Roofing Services" },
             { href: "/reliable-roof-repair", text: "Reliable Roof Repair" },
             { href: "/top-notch-roofing-restoration", text: "Top Notch Roofing Restoration" },
