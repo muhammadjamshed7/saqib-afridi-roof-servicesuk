@@ -1,7 +1,7 @@
 {
-  "/contact/page": "app/contact/page.js",
-  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
   "/(services)/services/page": "app/(services)/services/page.js",
-  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js"
+  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js",
+  "/(projects)/project/page": "app/(projects)/project/page.js"
 }

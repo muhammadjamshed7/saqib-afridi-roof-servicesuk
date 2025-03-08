@@ -25,18 +25,16 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     </div>
                                     <div className="content-box">
                                         <h4>About Us</h4>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                                            tempor incididunt ut labore et magna aliqua.
-                                        </p>
+                                        
                                     </div>
                                     <div className="form-inner">
                                         <h4>Get a free quote</h4>
                                         <form
-                                            action="/assets/inc/sendemail.php"
+                                            action="https://api.web3forms.com/submit" method="POST"
                                             className="contact-form-validated"
                                             noValidate
                                         >
+                                            <input type="hidden" name="access_key" value="298e865f-1c35-44f5-acd4-8387cc350e8e" />
                                             <div className="form-group">
                                                 <input
                                                     type="text"
