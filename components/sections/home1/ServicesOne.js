@@ -83,7 +83,7 @@ const services = [
     imgName: 'chm.jpg',
     title: 'Skyline Roofing',
     link: '/skyline-roofing-solutions',
-    description: 'Roof service involves the maintenance and repair of roofs residential.',
+    description: 'Roof ser vice involves the maintenance and repair of roofs residential.',
   },
   {
     imgName: 'led.jpg',
