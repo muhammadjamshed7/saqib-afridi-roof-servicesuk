@@ -10947,8 +10947,6 @@ img.mfp-img {
     position: relative;
     display: block;
     z-index: 1;
-    height: 400px;
-    width: 500px;
 }
 
 .about-one__img img {
