@@ -17,15 +17,15 @@ export default function Home() {
 
   const [projectImages] = useState([
     {
-      src: "/assets/images/project/project-details-img-1.jpg",
+      src: "https://www.total-contractor.co.uk/wp-content/uploads/2023/09/NSP-0018-scaled.jpg",
       alt: "Project Image 1",
     },
     {
-      src: "/assets/images/project/project-details-content-two-1-1.jpg",
+      src: "https://static.probuildermag.co.uk/professional-builder/uploads/001-11-1.jpg",
       alt: "Project Content Image 1",
     },
     {
-      src: "/assets/images/project/project-details-content-two-1-2.jpg",
+      src: "https://media.licdn.com/dms/image/D4E12AQH5RgTZ15QTeA/article-cover_image-shrink_720_1280/0/1715268731627?e=2147483647&v=beta&t=sspz-Fo96jhzPLUSfnA9T6u8HK6uZ34fJ-etNy-9ACA",
       alt: "Project Content Image 2",
     },
   ]);
@@ -38,20 +38,20 @@ export default function Home() {
   ]);
 
   const [projectDetails] = useState({
-    title: "Rise Above the Rest with Roof",
+    title: "How to Build a Pitched Roof",
     description:
-      "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution..",
+      "Building a pitched roof involves several key steps to ensure durability and effectiveness. This guide provides a summary of the essential steps required to construct a pitched roof.",
     points: [
-      "Rise Above the Rest with Roof Service",
-      "Roof Service Elevating Excellence",
-      "Let Roof Service Take You to New Heights",
-      "Roof Service Roofing Done Right",
-      "Reach for the Roof Service Stars",
-      "Trust Roof Service for Quality and Reliability",
+      "Design the roof structure and plan the layout.",
+      "Prepare the building site and ensure a solid foundation.",
+      "Install the roof trusses or rafters.",
+      "Add the roof decking and secure it properly.",
+      "Install the underlayment for added protection.",
+      "Apply the roofing material, such as shingles or tiles.",
     ],
-    secondaryTitle: "Elevating Excellence",
+    secondaryTitle: "Pitched Roof Construction Steps",
     secondaryDescription:
-      "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution..",
+      "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. This type of roof is ideal for areas with heavy rain or snow, providing durability and longevity. Follow these steps to build a reliable and efficient pitched roof.",
   });
 
   return (
@@ -68,7 +68,7 @@ export default function Home() {
                       <img
                         src={projectImages[0].src}
                         alt={projectImages[0].alt}
-                      />
+                      />Project Detail
                     </div>
                   </div>
                   <div className="project-details__content-one">
@@ -172,7 +172,7 @@ export default function Home() {
                 <div className="project-details__need-help">
                   <div className="project-details__need-help-img">
                     <img
-                      src="/assets/images/project/project-details-need-help-img.jpg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrTUIPhWnPMGg4ftk4gwKS3XsTDpiAmbiNJe3c5UI4ZZe2EMdAeN7fk_LcmJE03gWW7U&usqp=CAU"
                       alt="Need Help"
                     />
                   </div>
@@ -183,7 +183,7 @@ export default function Home() {
                     Need Help? Call Us
                   </p>
                   <h3 className="project-details__need-help-number">
-                    <Link href="tel:888123456765">(+888) 123 456 765</Link>
+                    <Link href="tel:888123456765">+44 7832 766458</Link>
                   </h3>
                 </div>
                 <div className="project-details__download">
@@ -215,15 +215,7 @@ export default function Home() {
         {/* Project Details End */}
 
         {/* CTA Two Start */}
-        <CTASection
-            backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
-            imgSrc="assets/images/resources/cta-two-img-1.png"
-            title="One Shingle at a Time"
-            text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
-            buttonText="Contact Us"
-            buttonLink="/contact"
-            />
-        {/* CTA Two End */}
+        
       </Layout>
     </>
   );

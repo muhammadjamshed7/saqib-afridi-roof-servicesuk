@@ -77,7 +77,7 @@ export default function BrandOne() {
     <>
       {/* Brand One Start */}
           {/* Swiper Slider */}
-          <Swiper {...swiperOptions}>
+          {/* <Swiper {...swiperOptions}>
             {brandData.map((brand, index) => (
               <SwiperSlide key={index}>   
                 <div className="brand-one__single">
@@ -87,7 +87,7 @@ export default function BrandOne() {
                 </div> 
               </SwiperSlide>
             ))}  
-          </Swiper>
+          </Swiper> */}
       {/* Brand One End */}  
     </>
   );

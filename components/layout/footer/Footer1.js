@@ -24,7 +24,7 @@ export default function Footer1() {
                 <div className="footer-widget__column footer-widget__about">
                   <div className="footer-widget__logo">
                     <Link href="/">
-                      <img src="/assets/images/resources/footer-logo-1.png" alt="" />
+                      {/* <img src="/assets/images/resources/footer-logo-1.png" alt="" /> */}
                     </Link>
                   </div>
                   <p className="footer-widget__about-text">
@@ -46,19 +46,24 @@ export default function Footer1() {
                   </div>
                   <ul className="footer-widget__services-list list-unstyled">
                     <li>
-                      <Link href="/reliable-roof-repair"><span className="icon-angle-left"></span>Roof Renewal</Link>
+                      {/* <Link href="/reliable-roof-repair"><span className="icon-angle-left"></span>Roof Renewal</Link> */}
+                      <Link href="#"><span className="icon-angle-left"></span>Roof Renewal</Link>
                     </li>
                     <li>
-                      <Link href="/peak-performance-roofing"><span className="icon-angle-left"></span>Peak Protection </Link>
+                      {/* <Link href="/peak-performance-roofing"><span className="icon-angle-left"></span>Peak Protection </Link> */}
+                      <Link href="#"><span className="icon-angle-left"></span>Peak Protection </Link>
                     </li>
                     <li>
-                      <Link href="/skyline-roofing-solutions"><span className="icon-angle-left"></span>Skyline Roof Care</Link>
+                      {/* <Link href="/skyline-roofing-solutions"><span className="icon-angle-left"></span>Skyline Roof Care</Link> */}
+                      <Link href="#"><span className="icon-angle-left"></span>Skyline Roof Care</Link>
                     </li>
                     <li>
-                      <Link href="/sure-guard-roofing-services"><span className="icon-angle-left"></span>Guardian Roof </Link>
+                      {/* <Link href="/sure-guard-roofing-services"><span className="icon-angle-left"></span>Guardian Roof </Link> */}
+                      <Link href="#"><span className="icon-angle-left"></span>Guardian Roof </Link>
                     </li>
                     <li>
-                      <Link href="/top-notch-roofing-restoration"><span className="icon-angle-left"></span>Top Notch Roof</Link>
+                      {/* <Link href="/top-notch-roofing-restoration"><span className="icon-angle-left"></span>Top Notch Roof</Link> */}
+                      <Link href="#"><span className="icon-angle-left"></span>Top Notch Roof</Link>
                     </li>
                   </ul>
                 </div>

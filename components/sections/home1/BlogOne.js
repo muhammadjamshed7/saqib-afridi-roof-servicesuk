@@ -8,7 +8,7 @@ const blogPosts = [
     date: "23 December 2023",
     title: "Trust the experts for all your roof service needs",
     link: "/blog-details",
-    image: "/assets/images/blog/blog-1-1.jpg" // Note the leading slash for public assets
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuO80Q0j1Sy-WhHt-C5QM3hPZIjVgqWPQELg&s" // Note the leading slash for public assets
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const blogPosts = [
     date: "23 December 2023",
     title: "Enhance the beauty and functionality of your roof",
     link: "/blog-details",
-    image: "/assets/images/blog/blog-1-2.jpg"
+    image: "https://2021media.s3.us-east-1.amazonaws.com/2023/12/long-shot-man-with-helmet-sitting-roof.jpg"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const blogPosts = [
     date: "23 December 2023",
     title: "Functionality of your roof with our service",
     link: "/blog-details",
-    image: "/assets/images/blog/blog-1-3.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7AuAOE5YzFjL47usNNYiELUIv9zQg370ag4DgSyMnt_RFRnjle6Fd_T16_aguKw_51so&usqp=CAU"
   }
 ];
 
@@ -73,7 +73,7 @@ export default function BlogOne() {
                       </Link>
                     </h3>
                     <div className="blog-one__btn-box">
-                      <Link href={post.link} className="blog-one__btn thm-btn-two">
+                      <Link href={"#"} className="blog-one__btn thm-btn-two">
                         Read more
                         <span className="icon-dubble-arrow-right" />
                       </Link>

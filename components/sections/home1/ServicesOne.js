@@ -69,27 +69,45 @@ const services = [
   },
   {
     imgName: 'flatt.jpg',
-    title: 'Superior Roofing Services',
+    title: 'Flat Roofing services',
     link: '/sure-guard-roofing-services',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {
     imgName: 'g5.jpg',
-    title: 'Roof Service Involves',
+    title: 'Guttering, Fascia and soffits',
     link: '/peak-performance-roofing',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {
     imgName: 'chm.jpg',
-    title: 'Skyline Roofing',
+    title: ' Chimney Leadwork and chimney demolition',
     link: '/skyline-roofing-solutions',
     description: 'Roof ser vice involves the maintenance and repair of roofs residential.',
   },
   {
     imgName: 'led.jpg',
-    title: 'Roofing Solutions',
+    title: 'Leadwork Solution',
     link: '/skyline-roofing-solutions',
-    description: 'Roof service involves the maintenance and repair of roofs residential.',
+    description: 'Lead work is a vital part of any roof and is necessary to prevent water ingress.',
+  },
+  {
+    imgName: 'dry.jpg',
+    title: 'Dry Verge System',
+    link: '/skyline-roofing-solutions',
+    description: 'Dry verge system is a maintenance free system that protects the verge of a roof.',
+  },
+  {
+    imgName: 'rooofmass.jpeg',
+    title: 'Roof moss & Gutter cleaning.',
+    link: '/skyline-roofing-solutions',
+    description: 'Roof moss and gutter cleaning we provide a professional roof cleaning service.',
+  },
+  {
+    imgName: 'dry.jpeg',
+    title: 'Dry ridges system.',
+    link: '/skyline-roofing-solutions',
+    description: 'Dry ridge system is a maintenance free system that secures the ridge tiles of a roof.',
   },
 ];
 
@@ -129,7 +147,7 @@ export default function ServicesOne() {
                     </h3>
                     <p className="services-one__text">{service.description}</p>
                     <div className="services-one__btn-box">
-                      <Link href={service.link} className="services-one__btn thm-btn">
+                      <Link href={"#"} className="services-one__btn thm-btn">
                         Read more
                         <span className="icon-dubble-arrow-right"></span>
                       </Link>

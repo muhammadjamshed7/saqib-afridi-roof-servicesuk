@@ -74,7 +74,7 @@ export default function FaqOne() {
               <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="faq-one__img-1">
-                    <img src="/assets/images/resources/faq-one-img-1.jpg" alt="" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStobLSv1FX0FW_sWrJRXedFE6O_znUbgLlVg&s" alt="" />
                   </div>
                   <div className="faq-one__count-box">
                     <div className="faq-one__icon">
@@ -94,7 +94,7 @@ export default function FaqOne() {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <div className="faq-one__img-2">
-                    <img src="/assets/images/resources/faq-one-img-2.jpg" alt="" />
+                    <img src="https://www.jjroofingsupplies.co.uk/media/wysiwyg/Myblogs/double_pitched_roof.jpg" alt="" />
                   </div>
                 </div>
               </div>

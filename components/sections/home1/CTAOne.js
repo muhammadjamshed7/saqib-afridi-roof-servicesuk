@@ -11,13 +11,13 @@ export default function CTAOne() {
         <div className="cta-one__inner">
           <div className="cta-one__shape-1">
             <img
-              src="/assets/images/shapes/cta-one-shape-1.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3KKa6QGUpv6uFmHX4VOnHX0dvitRfqInEw&s" height={"200px"}
               alt=""
             />
           </div>
           <div className="cta-one__img-one">
             <img
-              src="/assets/images/resources/cta-one-img-1.png"
+              src=""
               alt=""
             />
           </div>

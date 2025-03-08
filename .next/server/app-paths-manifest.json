@@ -1,6 +1,8 @@
 {
+  "/(services)/services/page": "app/(services)/services/page.js",
+  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js",
+  "/(projects)/project/page": "app/(projects)/project/page.js",
+  "/(projects)/project-details/page": "app/(projects)/project-details/page.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

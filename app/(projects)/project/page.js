@@ -3,6 +3,12 @@ import { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import CTASection from '@/components/common/CTASection';
 
+const imgName = [
+  { img: "https://images.adsttc.com/media/images/5c5c/8d7e/284d/d1d5/4a00/00d7/newsletter/img-(14).jpg?1549569398" },
+  { img: "https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538" },
+  { img: "https://metalroofingmiamifl.com/wp-content/uploads/2025/01/Roof-Underlayment.webp" },
+  { img: "https://img77.uenicdn.com/image/upload/v1687796570/business/652b1e30-7d95-417d-88c6-20c037a36dba.jpg" }
+];
 export default function Home() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -56,17 +62,17 @@ export default function Home() {
           <section className="project-page">
             <div className="container">
               <div className="row masonary-layout">
-                {[1, 2, 4, 3].map((item, index) => (
+                {imgName.map((item, index) => (
                   <div className="col-xl-6" key={index}>
                     <div className="project-page__single">
                       <div className="project-page__img">
                         {/* Use standard <img> */}
                         <img
-                          src={`/assets/images/project/project-page-1-${item}.jpg`}
-                          alt={`Project Image ${item}`}
+                          src={`${item.img}`}
+                          alt={`Project Image ${item.img}`}
                         />
                         <div className="project-page__icon">
-                          <a className="img-popup" href={`/assets/images/project/project-page-1-${item}.jpg`}>
+                          <a className="img-popup" href={`${item.img}`}>
                             <span className="fas fa-plus"></span>
                           </a>
                         </div>
@@ -82,7 +88,7 @@ export default function Home() {
           {/* CTA Two Start */}
           <CTASection
             backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
-            imgSrc="assets/images/resources/cta-two-img-1.png"
+            imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt95wnmawD-VDxJrRtf9IFbNF04CKOhl2RvQ&s"
             title="One Shingle at a Time"
             text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
             buttonText="Contact Us"
