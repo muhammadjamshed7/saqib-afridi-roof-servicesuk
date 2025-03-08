@@ -134,7 +134,7 @@ export default function ContactOne() {
                   data-wow-delay="100ms"
                   data-wow-duration="2500ms"
                 >
-                  <img src="/assets/images/resources/contact-one-img-1.png" alt="Contact Image" />
+                  <img src="https://cdn11.bigcommerce.com/s-syq802aysx/images/stencil/1280x1280/products/197/783/Ridge-Pro-S-ide-2__49591.1709323788.jpg?c=2" alt="Contact Image" />
                   <div className="contact-one__shape-2">
                     <img src="/assets/images/shapes/contact-one-shape-2.png" alt="Shape 2" />
                   </div>

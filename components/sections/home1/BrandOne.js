@@ -76,22 +76,7 @@ export default function BrandOne() {
   return (
     <>
       {/* Brand One Start */}
-      <section className="brand-one">
-        <div className="container">
-          {/* Swiper Slider */}
-          <Swiper {...swiperOptions}>
-            {brandData.map((brand, index) => (
-              <SwiperSlide key={index}>
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src={brand.src} alt={brand.alt} />
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      </section>
+     
       {/* Brand One End */}
     </>
   );

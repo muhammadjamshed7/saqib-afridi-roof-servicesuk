@@ -115,6 +115,8 @@ export default function ServicesOne() {
                       <img
                         src={`/assets/images/roof/${service.imgName}`}
                         alt={service.title}
+                        width="300px"
+                        height="200px"
                       />
                     </div>
                     <div className="services-one__icon">

@@ -96,7 +96,7 @@ export default function TestimonialOne() {
   return (
     <>
       {/* Testimonial One Start */}
-      <section className="testimonial-one">
+      {/* <section className="testimonial-one">
         <div className="testimonial-one__wrap">
           <div className="testimonial-one__shape-1">
             <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="" />
@@ -109,7 +109,6 @@ export default function TestimonialOne() {
               <h2 className="section-title__title">Sheltering You with <span>Strength</span></h2>
             </div>
 
-            {/* Swiper Slider */}
             <Swiper {...swiperOptions}>
               {testimonials.map((testimonial, index) => (
                 <SwiperSlide key={index}>
@@ -145,7 +144,7 @@ export default function TestimonialOne() {
             </Swiper>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial One End */}
     </>
   );
