@@ -12,28 +12,28 @@ const testimonials = [
   {
     name: 'Cameron Williamson',
     designation: 'Pro Roofing Experts',
-    imgSrc: 'assets/images/testimonial/testimonial-1-1.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
     rating: 5,
   },
   {
     name: 'Sajid Hasan',
     designation: 'Roofing Masters',
-    imgSrc: 'assets/images/testimonial/testimonial-1-2.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
     rating: 3,
   },
   {
     name: 'Cameron Williamson',
     designation: 'Pro Roofing Experts',
-    imgSrc: 'assets/images/testimonial/testimonial-1-1.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
     rating: 5,
   },
   {
     name: 'Sajid Hasan',
     designation: 'Roofing Masters',
-    imgSrc: 'assets/images/testimonial/testimonial-1-2.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
     rating: 3,
   },
@@ -106,12 +106,12 @@ export default function TestimonialOne() {
                 </div>
                 <div className="testimonial-one__client-info">
                   <div className="testimonial-one__client-img">
-                    <img src={testimonial.imgSrc} alt={testimonial.name} />
+                    <img src={testimonial.imgSrc} alt={testimonial.name}  height={"90px"}width={"80px"}/>
                   </div>
                   <div className="testimonial-one__client-content">
                     <h3>
                       <Link href="/testimonials">{testimonial.name}</Link>
-                    </h3>
+                    </h3>   
                     <p>{testimonial.designation}</p>
                   </div>
                 </div>

@@ -14,7 +14,7 @@ const testimonials = [
     link: '/testimonials',
   },
   {
-    imgSrc: 'assets/images/testimonial/testimonial-1-2.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     name: 'Sajid Hasan',
     title: 'Roofing Masters',
     text: 'Construction is an essential industry that invo building and designing structures such as buildings, roads, bridges and more. It requires skilled workers, materials and the careful planning to ensure successful.',
@@ -22,7 +22,7 @@ const testimonials = [
     link: '/testimonials',
   },
   {
-    imgSrc: 'assets/images/testimonial/testimonial-1-3.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     name: 'Adam Smith',
     title: 'Roof Renovation',
     text: 'Construction is an essential industry that invo building and designing structures such as buildings, roads, bridges and more. It requires skilled workers, materials and the careful planning to ensure successful.',
@@ -30,7 +30,7 @@ const testimonials = [
     link: '/testimonials',
   },
   {
-    imgSrc: 'assets/images/testimonial/testimonial-1-4.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     name: 'Robert Son',
     title: 'Roof Renovation',
     text: 'Construction is an essential industry that invo building and designing structures such as buildings, roads, bridges and more. It requires skilled workers, materials and the careful planning to ensure successful.',
@@ -38,7 +38,7 @@ const testimonials = [
     link: '/testimonials',
   },
   {
-    imgSrc: 'assets/images/testimonial/testimonial-1-5.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     name: 'Adam Milne',
     title: 'Roof Renovation',
     text: 'Construction is an essential industry that invo building and designing structures such as buildings, roads, bridges and more. It requires skilled workers, materials and the careful planning to ensure successful.',
@@ -46,7 +46,7 @@ const testimonials = [
     link: '/testimonials',
   },
   {
-    imgSrc: 'assets/images/testimonial/testimonial-1-6.jpg',
+    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
     name: 'Robert Illingworth',
     title: 'Roof Renovation',
     text: 'Construction is an essential industry that invo building and designing structures such as buildings, roads, bridges and more. It requires skilled workers, materials and the careful planning to ensure successful.',

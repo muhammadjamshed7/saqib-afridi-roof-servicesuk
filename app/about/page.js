@@ -53,7 +53,7 @@ export default function Home() {
                             >
                                 <div className="about-one__img">
                                 <img
-                                    src="https://images.unsplash.com/photo-1726589004565-bedfba94d3a2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1gp0HWHlaFaydmLiRSTlurAcq29JaFUy3A&s"
                                     
                                 />
                                 
@@ -62,7 +62,7 @@ export default function Home() {
                             
                                 <div className="about-one__happy-client">
                                     <div className="about-one__client-img-box">
-                                    <ul className="about-one__client-img-list list-unstyled">
+                                    {/* <ul className="about-one__client-img-list list-unstyled">
                                         <li>
                                         <div className="about-one__client-img">
                                             <img
@@ -87,7 +87,7 @@ export default function Home() {
                                             />
                                         </div>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                     </div>
                                     <div className="about-one__happy-client-content">
                                     <div className="about-one__count count-box">

@@ -60,16 +60,16 @@ const swiperOptions = {
 
 // Dynamic data array
 const brandData = [
-  { src: '/assets/images/brand/brand-1-1.png', alt: 'Brand 1' },
-  { src: '/assets/images/brand/brand-1-2.png', alt: 'Brand 2' },
-  { src: '/assets/images/brand/brand-1-3.png', alt: 'Brand 3' },
-  { src: '/assets/images/brand/brand-1-4.png', alt: 'Brand 4' },
-  { src: '/assets/images/brand/brand-1-5.png', alt: 'Brand 5' },
-  { src: '/assets/images/brand/brand-1-1.png', alt: 'Brand 6' },
-  { src: '/assets/images/brand/brand-1-2.png', alt: 'Brand 7' },
-  { src: '/assets/images/brand/brand-1-3.png', alt: 'Brand 8' },
-  { src: '/assets/images/brand/brand-1-4.png', alt: 'Brand 9' },
-  { src: '/assets/images/brand/brand-1-5.png', alt: 'Brand 10' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 1' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 2' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 3' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 4' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 5' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 6' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 7' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 8' },
+  { src: 'https://cdn.dribbble.com/userupload/17477813/file/original-b55bfea0dc06b00077808a2f3ff208d7.jpg?resize=400x0', alt: 'Construction Brand 9' },
+  
 ];
 
 export default function BrandOne() {
@@ -79,16 +79,16 @@ export default function BrandOne() {
           {/* Swiper Slider */}
           <Swiper {...swiperOptions}>
             {brandData.map((brand, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={index}>   
                 <div className="brand-one__single">
                   <div className="brand-one__img">
-                    <img src={brand.src} alt={brand.alt} />
+                    <img src={brand.src} alt={brand.alt} width="700px" height="70px" />
                   </div>
-                </div>
+                </div> 
               </SwiperSlide>
-            ))}
+            ))}  
           </Swiper>
-      {/* Brand One End */}
+      {/* Brand One End */}  
     </>
   );
 }
