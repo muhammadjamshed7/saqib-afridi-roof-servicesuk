@@ -62,31 +62,31 @@ const swiperOptions = {
 // Sample service data
 const services = [
   {
-    imgName: 'services-1-1.jpg',
+    imgName: 'pitchedroof1.jpg',
     title: 'Pitched roof',
     link: '/pitched-roof',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {
-    imgName: 'services-1-2.jpg',
+    imgName: 'flatt.jpg',
     title: 'Superior Roofing Services',
     link: '/sure-guard-roofing-services',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {
-    imgName: 'services-1-3.jpg',
+    imgName: 'g5.jpg',
     title: 'Roof Service Involves',
     link: '/peak-performance-roofing',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {
-    imgName: 'services-1-4.jpg',
+    imgName: 'chm.jpg',
     title: 'Skyline Roofing',
     link: '/skyline-roofing-solutions',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
   },
   {
-    imgName: 'services-1-5.jpg',
+    imgName: 'led.jpg',
     title: 'Roofing Solutions',
     link: '/skyline-roofing-solutions',
     description: 'Roof service involves the maintenance and repair of roofs residential.',
@@ -113,7 +113,7 @@ export default function ServicesOne() {
                   <div className="services-one__img-box">
                     <div className="services-one__img">
                       <img
-                        src={`/assets/images/services/${service.imgName}`}
+                        src={`/assets/images/roof/${service.imgName}`}
                         alt={service.title}
                       />
                     </div>

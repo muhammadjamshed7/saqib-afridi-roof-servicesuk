@@ -24,66 +24,39 @@ export default function About() {
               >
                 <div className="about-one__img">
                   <img
-                    src="/assets/images/resources/about-one-img-1.png"
+                    src="https://elite-roofs.com/wp-content/uploads/2023-12-22-what-are-solar-epc-companies-Elite.jpg" 
                     alt=""
                   />
-                  <div className="about-one__shape-3">
+                  {/* <div className="about-one__shape-3">
                     <img
-                      src="/assets/images/shapes/about-shape-3.png"
+                      src="https://elite-roofs.com/wp-content/uploads/2023-12-22-what-are-solar-epc-companies-Elite.jpg" width={"200px"} height={"200px"}
                       alt=""
                     />
-                  </div>
-                  <div className="about-one__shape-4">
+                  </div> */}
+                  {/* <div className="about-one__shape-4">
                     <img
                       src="/assets/images/shapes/about-shape-4.png"
                       alt=""
                     />
-                  </div>
-                  <div className="about-one__shape-1">
+                  </div> */}
+                  {/* <div className="about-one__shape-1">
                     <img
                       src="/assets/images/shapes/about-shape-1.png"
                       alt=""
                     />
-                  </div>
-                  <div className="about-one__shape-2">
+                  </div> */}
+                  {/* <div className="about-one__shape-2">
                     <img
                       src="/assets/images/shapes/about-shape-2.png"
                       alt=""
                     />
-                  </div>
+                  </div> */}
                   <div className="about-one__happy-client">
-                    <div className="about-one__client-img-box">
-                      <ul className="about-one__client-img-list list-unstyled">
-                        <li>
-                          <div className="about-one__client-img">
-                            <img
-                              src="/assets/images/resources/about-one-happy-client-img-1.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </li>
-                        <li>
-                          <div className="about-one__client-img">
-                            <img
-                              src="/assets/images/resources/about-one-happy-client-img-2.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </li>
-                        <li>
-                          <div className="about-one__client-img">
-                            <img
-                              src="/assets/images/resources/about-one-happy-client-img-3.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
+                    
                     <div className="about-one__happy-client-content">
                       <div className="about-one__count count-box">
                         <h3 className="count-text">
-                          <CountUp end={2000} duration={1.5} />
+                          <CountUp end={2000} duration={2.5} />
                         </h3>
                         <span className="about-one__count-plus">+</span>
                       </div>

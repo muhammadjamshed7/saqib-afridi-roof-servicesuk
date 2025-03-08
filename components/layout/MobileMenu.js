@@ -120,7 +120,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                   <span className="fa fa-angle-right" />
                 </div>
               </li>
-              <li className={isActive.key === "blog" ? "dropdown current" : "dropdown"}>
+              {/* <li className={isActive.key === "blog" ? "dropdown current" : "dropdown"}>
                 <a href="#" onClick={() => handleToggle("blog")}>Blog</a>
                 <ul style={{ display: `${isActive.key === "blog" ? "block" : "none"}` }}>
                   <li><Link href="/blog" onClick={handleMobileMenu}>Blog</Link></li>
@@ -130,7 +130,7 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <div className={isActive.key === "blog" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("blog")}>
                   <span className="fa fa-angle-right" />
                 </div>
-              </li>
+              </li> */}
               <li><Link href="/contact" onClick={handleMobileMenu}>Contact Us</Link></li>
             </ul>
           </div>

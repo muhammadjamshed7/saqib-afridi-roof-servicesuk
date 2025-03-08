@@ -832,7 +832,7 @@ export default function Home() {
                                 </div>
                                 <div className="hover-item__box">
                                 <img
-                                    src="/assets/images/services/services-three-service-list-img-1.jpg"
+                                    src="https://media.homecreations.com/4/2020/6/3/HC-Set2-Newport_Elite_A.jpg?width=1920&ois=6abb092&fit=bounds&height=1239"
                                     alt="Image"
                                     className="hover-item__box-img"
                                 />
@@ -854,7 +854,7 @@ export default function Home() {
                                 </div>
                                 <div className="hover-item__box">
                                 <img
-                                    src="/assets/images/services/services-three-service-list-img-2.jpg"
+                                    src="https://www.tropicalroofingproducts.com/wp-content/uploads/2021/08/TropicalRoofing-ProjectProfile-ZenithRoofing-Hero.jpg"
                                     alt="Image"
                                     className="hover-item__box-img"
                                 />
@@ -876,7 +876,7 @@ export default function Home() {
                                 </div>
                                 <div className="hover-item__box">
                                 <img
-                                    src="/assets/images/services/services-three-service-list-img-3.jpg"
+                                    src="https://www.cliffnicholls.co.uk/wp-content/uploads/2019/08/Cliff-Nicholls-Our-Work-1.jpg"
                                     alt="Image"
                                     className="hover-item__box-img"
                                 />
@@ -898,7 +898,7 @@ export default function Home() {
                                 </div>
                                 <div className="hover-item__box">
                                 <img
-                                    src="/assets/images/services/services-three-service-list-img-4.jpg"
+                                    src="https://lh5.googleusercontent.com/proxy/KFSXsUFARc1Gq6XB5UtvOVs3s_iDGr3GbTqBT2ShJF5LrzGzw7Ki4vaiHkoEl2e2AscFlOMtWzCT7X_ybKx5DiCJQ-I5GCPaQBL1rzW-IyaRCw1yzPmlWWN_pFT8k7zmVpEwYe9Odn-qXwobnA_xuT6JxyzM"
                                     alt="Image"
                                     className="hover-item__box-img"
                                 />
