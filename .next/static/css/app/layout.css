@@ -28386,7 +28386,12 @@ ul {
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .main-slider__img {
-      right: 200px;
+      right: 100px;
+      top:300px
+  }
+  .main-slide-b{
+    right: 100px;
+      top:300px
   }
 }
 

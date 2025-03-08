@@ -34,9 +34,8 @@ export default function Banner() {
         <SwiperSlide className="swiper-slide">
         
           
-          
           <div className="main-slider__img">
-            <img src="https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538" width="600px" height="400px" alt="" />
+            <img src="assets/images/roof/b.jpg" width="700px" height="450px" alt="" />
           </div>
           <div className="container">
             <div className="main-slider__content">
