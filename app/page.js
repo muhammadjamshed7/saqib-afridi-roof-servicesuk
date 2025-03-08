@@ -25,7 +25,7 @@ export default function Home() {
                 <CounterOne />
                 <CTAOne />
                 {/* <TeamOne /> */}
-                <ContactOne />
+                {/* <ContactOne /> */}
                 <WeServe />
                 <TestimonialOne />
                 <ProjectOne />

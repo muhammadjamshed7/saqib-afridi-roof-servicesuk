@@ -220,7 +220,7 @@ export default function Home() {
                                                                 <div className="select-box">
                                                                 <select className="selectmenu wide" defaultValue="Choose a Option">
                                                                     <option>Choose a Option</option>
-                                                                    <option>Type Of Service 01</option>
+                                                                    <option>Type Of hhh 01</option>
                                                                     <option>Type Of Service 02</option>
                                                                     <option>Type Of Service 03</option>
                                                                     <option>Type Of Service 04</option>
