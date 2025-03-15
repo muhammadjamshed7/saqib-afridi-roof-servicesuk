@@ -19,7 +19,7 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "assets/images/roof/pitchedroof1.jpg",
+            "assets/images/roof/pitchedroof.webp",
             
         ],
         content3Title: "Elevating Excellence",
@@ -147,7 +147,7 @@ export default function Home() {
                         <CTASection
                         backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
                         imgSrc="assets/images/roof/padvantage.jpg"
-                        title="One Shingle at a Time"
+                        title="One Single at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"
                         buttonLink="/contact"

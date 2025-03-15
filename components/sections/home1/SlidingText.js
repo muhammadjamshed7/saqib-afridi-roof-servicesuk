@@ -62,12 +62,9 @@ export default function SlidingText() {
 
   return (
     <>
-      {/* Sliding Text One Start */}
-      <section className="sliding-text-one">
+      {/* <section className="sliding-text-one">
       <div className="container">
-          {/* Swiper Slider */}
           <Swiper {...swiperOptions}>
-            {/* Brand One Single */}
             <SwiperSlide>
             <ul className="sliding-text__list list-unstyled marquee_mode">
             <li>
@@ -77,7 +74,6 @@ export default function SlidingText() {
             </li>
           </ul>
             </SwiperSlide>
-            {/* Brand One Single */}
             <SwiperSlide>
             <ul className="sliding-text__list list-unstyled marquee_mode">
             <li>
@@ -87,7 +83,6 @@ export default function SlidingText() {
             </li>
           </ul>
             </SwiperSlide>
-            {/* Brand One Single */}
             <SwiperSlide>
             <ul className="sliding-text__list list-unstyled marquee_mode">
             <li>
@@ -97,7 +92,6 @@ export default function SlidingText() {
             </li>
           </ul>
             </SwiperSlide>
-            {/* Brand One Single */}
             <SwiperSlide>
             <ul className="sliding-text__list list-unstyled marquee_mode">
             <li>
@@ -107,7 +101,6 @@ export default function SlidingText() {
             </li>
           </ul>
             </SwiperSlide>
-            {/* Brand One Single */}
             <SwiperSlide>
             <ul className="sliding-text__list list-unstyled marquee_mode">
             <li>
@@ -119,10 +112,8 @@ export default function SlidingText() {
             </SwiperSlide>
             
           </Swiper>
-          {/* If we need navigation buttons */}
         </div>
-      </section>
-      {/* Sliding Text One End */}
+      </section> */}
     </>
   );
 }

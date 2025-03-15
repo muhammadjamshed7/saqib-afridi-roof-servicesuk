@@ -47,7 +47,7 @@ export default function Home() {
       "Install the roof trusses or rafters.",
       "Add the roof decking and secure it properly.",
       "Install the underlayment for added protection.",
-      "Apply the roofing material, such as shingles or tiles.",
+      "Apply the roofing material, such as Singles or tiles.",
     ],
     secondaryTitle: "Pitched Roof Construction Steps",
     secondaryDescription:

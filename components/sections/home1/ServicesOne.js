@@ -62,7 +62,7 @@ const swiperOptions = {
 // Sample service data
 const services = [
   {
-    imgName: 'pitchedroof1.jpg',
+    imgName: 'pitchedroof.webp',
     title: 'Pitched roof',
     link: '/pitched-roof',
     description: 'Roof service involves the maintenance and repair of roofs residential.',

@@ -35,7 +35,7 @@ export default function Banner() {
         
           
           <div className="main-slider__img">
-            <img src="assets/images/roof/b.jpg" width="700px" height="450px" alt="" />
+            <img src="assets/images/roof/banner.jpg" width="700px" height="450px" alt="" />
           </div>
           <div className="container">
             <div className="main-slider__content">

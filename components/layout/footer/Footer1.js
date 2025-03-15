@@ -88,7 +88,9 @@ export default function Footer1() {
                           <span className="icon-location"></span>
                         </div>
                         <div className="text">
-                          <p>3891 Ranchview Dr.<br /> Richardson</p>
+                          <p>Street name: Wentworth Avenue <br/>
+City: Slough
+<br /> Postcode: SL2 2DR</p>
                         </div>
                       </li>
                       <li>

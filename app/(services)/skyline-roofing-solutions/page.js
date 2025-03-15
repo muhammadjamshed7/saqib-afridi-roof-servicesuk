@@ -49,7 +49,7 @@ export default function Home() {
         ctaSection: {
             backgroundImage: "assets/images/backgrounds/cta-two-bg.jpg",
             imgSrc: "assets/images/roof/g5.jpg",
-            title: "One Shingle at a Time",
+            title: "One Single at a Time",
             text: "Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings.",
             buttonText: "Contact Us",
             buttonLink: "/contact"

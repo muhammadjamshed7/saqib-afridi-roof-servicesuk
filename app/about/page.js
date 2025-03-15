@@ -914,7 +914,7 @@ export default function Home() {
                     <CTASection
                         backgroundImage="https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538"
                         imgSrc="https://images.unsplash.com/photo-1635424709961-f3a150459ad4?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        title="One Shingle at a Time"
+                        title="One Single at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"
                         buttonLink="/contact"
