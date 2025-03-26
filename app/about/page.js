@@ -7,6 +7,7 @@ import TestimonialOne from '@/components/slider/TestimonialOne';
 import BrandOne from '@/components/slider/BrandOne';
 import CTASection from '@/components/common/CTASection';
 import Layout from "@/components/layout/Layout"
+import Footer1 from '@/components/layout/footer/Footer1';
 
 
 export default function Home() {
@@ -301,70 +302,69 @@ export default function Home() {
                     </section>
                     {/* About One End */}
 
-                    {/* Counter Two Start */}
                     <section className="counter-two">
                         <div className="counter-two__wrap">
-                        <div
-                            className="counter-two__bg-shape float-bob-y"
-                            style={{ backgroundImage: 'url(/assets/images/shapes/counter-two-bg-shape.png)' }}
-                        ></div>
-                        <div className="container">
-                            <div className="section-title text-center">
-                            <div className="section-title__tagline-box">
-                                <span className="section-title__tagline">why we are the best</span>
-                            </div>
-                            <h2 className="section-title__title">
-                                Reach for the <span>Roof <br />Service</span> Stars Trust Roof
-                            </h2>
-                            </div>
-                            <div className="row">
-                            <div className="col-xl-6 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <div className="counter-two__left">
-                                <ul className="counter-two__points-list list-unstyled">
-                                    <li>
-                                    <div className="icon">
-                                        <span className="icon-architect"></span>
+                            <div
+                                className="counter-two__bg-shape float-bob-y"
+                                style={{ backgroundImage: 'url(/assets/images/shapes/counter-two-bg-shape.png)' }}
+                            ></div>
+                            <div className="container">
+                                <div className="section-title text-center">
+                                    <div className="section-title__tagline-box">
+                                        <span className="section-title__tagline">why we are the best</span>
                                     </div>
-                                    <div className="content">
-                                        <h3>Reliable Roofing Pros</h3>
-                                        <p>
-                                        Roof service involves the installation, maintenance, and repair of roofs for the residential
-                                        </p>
-                                    </div>
-                                    </li>
-                                    <li>
-                                    <div className="icon">
-                                        <span className="icon-blueprint"></span>
-                                    </div>
-                                    <div className="content">
-                                        <h3>Vertex Roofing Specialists</h3>
-                                        <p>
-                                        Roof service involves the installation, maintenance, and repair of roofs for the residential
-                                        </p>
-                                    </div>
-                                    </li>
-                                    <li>
-                                    <div className="icon">
-                                        <span className="icon-wall"></span>
-                                    </div>
-                                    <div className="content">
-                                        <h3>Ridgeguard Roofing</h3>
-                                        <p>
-                                        Roof service involves the installation, maintenance, and repair of roofs for the residential
-                                        </p>
-                                    </div>
-                                    </li>
-                                </ul>
+                                    <h2 className="section-title__title">
+                                        Roofing Services with <span>Best</span> Quality
+                                    </h2>
                                 </div>
-                            </div>
-                            <div className="col-xl-6 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <div className="counter-two__right">
-                                <div
-                                    className="counter-two__right-bg-shape"
-                                    style={{ backgroundImage: 'url(/assets/images/shapes/counter-two-right-bg-shape.png)' }}
-                                ></div>
                                 <div className="row">
-                                    {/* Counter Two Single Start */}
+                                    <div className="col-xl-6 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                                        <div className="counter-two__left">
+                                            <ul className="counter-two__points-list list-unstyled">
+                                                <li>
+                                                    <div className="icon">
+                                                        <span className="icon-architect"></span>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h3>Reliable Roofing Pros</h3>
+                                                        <p>
+                                                            Our roofing services include installation, maintenance, and repair for residential and commercial buildings.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div className="icon">
+                                                        <span className="icon-blueprint"></span>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h3>Vertex Roofing Specialists</h3>
+                                                        <p>
+                                                            We provide top-notch roofing solutions tailored to meet your specific needs and ensure durability.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div className="icon">
+                                                        <span className="icon-wall"></span>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h3>Ridgeguard Roofing</h3>
+                                                        <p>
+                                                            Our team of experts is dedicated to delivering high-quality roofing services with a focus on customer satisfaction.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-6 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                                        <div className="counter-two__right">
+                                            <div
+                                                className="counter-two__right-bg-shape"
+                                                style={{ backgroundImage: 'url(/assets/images/shapes/counter-two-right-bg-shape.png)' }}
+                                            ></div>
+                                            <div className="row">
+                                                {/* Counter Two Single Start */}
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="counter-two__single">
                                         <div className="counter-two__icon">
@@ -449,53 +449,58 @@ export default function Home() {
                     </section>
                     {/* Counter Two End */}
 
-                    {/* We Serve Start */}
                     <section className="we-serve">
                         <div className="container">
-                        <div className="section-title text-center">
-                            <div className="section-title__tagline-box">
-                            <span className="section-title__tagline">We serve</span>
-                            </div>
-                            <h2 className="section-title__title">
-                            Above All <span>Your Roof</span>
-                            <br /> Very Matter
-                            </h2>
-                        </div>
-                        <div className="we-serve__main-tab-box tabs-box">
-                            <div className="row">
-                            <div className="col-xl-3">
-                                <div className="we-serve__left">
-                                <ul className="tab-buttons list-unstyled">
-                                    <li
-                                    className={`tab-btn ${activeIndex === 0 ? 'active-btn' : ''}`}
-                                    onClick={() => handleOnClick(0)}
-                                    >
-                                    <span>Roofing Layers</span>
-                                    </li>
-                                    <li
-                                    className={`tab-btn ${activeIndex === 1 ? 'active-btn' : ''}`}
-                                    onClick={() => handleOnClick(1)}
-                                    >
-                                    <span>Roof Solar Panels</span>
-                                    </li>
-                                    <li
-                                    className={`tab-btn ${activeIndex === 2 ? 'active-btn' : ''}`}
-                                    onClick={() => handleOnClick(2)}
-                                    >
-                                    <span>Roof Renovation</span>
-                                    </li>
-                                    <li
-                                    className={`tab-btn ${activeIndex === 3 ? 'active-btn' : ''}`}
-                                    onClick={() => handleOnClick(3)}
-                                    >
-                                    <span>Roof Installation</span>
-                                    </li>
-                                </ul>
+                            <div className="section-title text-center">
+                                <div className="section-title__tagline-box">
+                                    <span className="section-title__tagline">We serve</span>
                                 </div>
+                                <h2 className="section-title__title">
+                                    Above All <span>Your Roof</span>
+                                    <br /> Very Matter
+                                </h2>
                             </div>
-                            <div className="col-xl-9">
-                                <div className="tabs-content">
-                                {/* Tab 1 */}
+                            <div className="we-serve__main-tab-box tabs-box">
+                                <div className="row">
+                                    <div className="col-xl-3">
+                                        <div className="we-serve__left">
+                                            <ul className="tab-buttons list-unstyled">
+                                                <li
+                                                    className={`tab-btn ${activeIndex === 0 ? 'active-btn' : ''}`}
+                                                    onClick={() => handleOnClick(0)}
+                                                >
+                                                    <span>Pitched Roof</span>
+                                                </li>
+                                                <li
+                                                    className={`tab-btn ${activeIndex === 1 ? 'active-btn' : ''}`}
+                                                    onClick={() => handleOnClick(1)}
+                                                >
+                                                    <span>Flat Roof</span>
+                                                </li>
+                                                <li
+                                                    className={`tab-btn ${activeIndex === 2 ? 'active-btn' : ''}`}
+                                                    onClick={() => handleOnClick(2)}
+                                                >
+                                                    <span>Lead Work</span>
+                                                </li>
+                                                <li
+                                                    className={`tab-btn ${activeIndex === 3 ? 'active-btn' : ''}`}
+                                                    onClick={() => handleOnClick(3)}
+                                                >
+                                                    <span>Chimney Installation</span>
+                                                </li>
+                                                <li
+                                                    className={`tab-btn ${activeIndex === 4 ? 'active-btn' : ''}`}
+                                                    onClick={() => handleOnClick(4)}
+                                                >
+                                                    <span>Gutter Fascia</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="col-xl-9">
+                                        <div className="tabs-content">
+                                            {/* Tab 1 */}
                                 <div
                                     className={`tab ${activeIndex === 0 ? 'active-tab' : ''}`}
                                     id="roofing-layers"
@@ -921,6 +926,7 @@ export default function Home() {
                     />
                     {/* CTA Two End */}
                 </div>
+                <Footer1/>
             </Layout>
         </>
     )

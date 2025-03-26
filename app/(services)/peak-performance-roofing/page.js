@@ -3,15 +3,16 @@ import Layout from "@/components/layout/Layout";
 import CTASection from '@/components/common/CTASection';
 import { useState } from 'react';
 import Link from "next/link";
+import Footer1 from "@/components/layout/footer/Footer1";
 
 export default function Home() {
     // State to hold dynamic content
     const [serviceDetails] = useState({
-        title: "Rise Above the Rest with Roof",
+        title: "Pitched Roof Services",
         text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
-        image1: "assets/images/roof/pitchroof.jpeg",
+        image1: "assets/images/roof/pitchupdated.webp",
         title2: "Service all details",
-        text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text2: "Roofing High has been delivering expert pitched roof services across London since 1990. With over three decades of experience, we are known for our precision, reliability, and high-quality workmanship. Specialising in pitched roof installations, repairs, and replacements, our skilled team uses only premium materials to ensure durability and weather resistance. Whether it’s a new build or a renovation, Roofing High provides tailored solutions that meet your roofing needs with professionalism and care. Trust Roofing High for pitched roofing that stands the test of time",
         points: [
             "Transforming houses into homes with superior",
             "Experience peace of mind under a sturdy",
@@ -19,11 +20,11 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "assets/images/roof/pitchedroof.webp",
+            "assets/images/roof/p2.jpg",
             
         ],
         content3Title: "Elevating Excellence",
-        text3: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text3: "Roofing High is your go-to expert for pitched roof services in London. Since 1990, we’ve provided top-quality pitched roof installations, repairs, and maintenance using durable materials and trusted techniques. Whether it’s a slate or tile roof, our experienced team ensures every project is built to last. Choose Roofing High – London’s reliable pitched roofing specialists.",
         text4: "",
         features: [
             {
@@ -154,6 +155,7 @@ export default function Home() {
                         />
                     {/* CTA Two End */}
                 </div>
+                <Footer1/>
             </Layout>
         </>
     )
