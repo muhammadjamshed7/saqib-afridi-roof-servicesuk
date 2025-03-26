@@ -21,7 +21,7 @@ export default function ProjectOne() {
             <div className="project-one__single">
               <div className="project-one__img-box">
                 <div className="project-one__img">
-                  <img src="https://img77.uenicdn.com/image/upload/v1687796570/business/652b1e30-7d95-417d-88c6-20c037a36dba.jpg" alt="Roof Renewal" />
+                  <img src="assets/images/roof/g1.jpg" alt="Roof Renewal" />
                 </div>
                 <div className="project-one__content">
                   <p className="project-one__sub-title">Roof Renewal</p>
@@ -41,12 +41,12 @@ export default function ProjectOne() {
                 <div className="project-one__single">
                   <div className="project-one__img-box">
                     <div className="project-one__img">
-                      <img src="https://metalroofingmiamifl.com/wp-content/uploads/2025/01/Roof-Underlayment.webp" alt="Roof Renewal" />
+                      <img src="assets/images/roof/g2.png" alt="Roof Renewal" />
                     </div>
                     <div className="project-one__content">
                       <p className="project-one__sub-title">Roof Renewal</p>
                       <h4 className="project-one__title">
-                        <Link href="/project-details">Expert Roof Layers</Link>
+                        <Link href="/project-details">Pitched Roof</Link>
                       </h4>
                     </div>
                   </div>
@@ -59,12 +59,12 @@ export default function ProjectOne() {
                 <div className="project-one__single">
                   <div className="project-one__img-box">
                     <div className="project-one__img">
-                      <img src="https://rcjroofingcontractors.com/wp-content/uploads/2023/05/windstorm-1024x683.jpg" alt="Roof Renewal" />
+                      <img src="assets/images/roof/g3.jpg" alt="Roof Renewal" />
                     </div>
                     <div className="project-one__content">
                       <p className="project-one__sub-title">Roof Renewal</p>
                       <h4 className="project-one__title">
-                        <Link href="/project-details">Expert Roof Renovation</Link>
+                        <Link href="/project-details">Flat Roof</Link>
                       </h4>
                     </div>
                   </div>
@@ -77,12 +77,12 @@ export default function ProjectOne() {
                 <div className="project-one__single">
                   <div className="project-one__img-box">
                     <div className="project-one__img">
-                      <img src="https://www.checkatrade.com/blog/wp-content/uploads/2020/10/FEATURE-cost-to-replace-flat-roof-with-pitched-roof.jpg" alt="Roof Renewal" />
+                      <img src="assets/images/roof/4.jpg" alt="Roof Renewal" />
                     </div>
                     <div className="project-one__content">
                       <p className="project-one__sub-title">Roof Renewal</p>
                       <h4 className="project-one__title">
-                        <Link href="/project-details">Expert Roof Installation</Link>
+                        <Link href="/project-details">Gutter, Fascia</Link>
                       </h4>
                     </div>
                   </div>

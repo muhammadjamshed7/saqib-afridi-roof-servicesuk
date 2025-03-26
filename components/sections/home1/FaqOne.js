@@ -21,48 +21,48 @@ export default function FaqOne() {
             <div className="faq-one__left">
               <div className="section-title text-left">
                 <div className="section-title__tagline-box">
-                  <span className="section-title__tagline">Ask question</span>
+                  <span className="section-title__tagline">Free Consultancy</span>
                 </div>
-                <h2 className="section-title__title">Trust the experts for and a your roof service</h2>
+                <h2 className="section-title__title">Get a free consultancy call with our experts</h2>
               </div>
               <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                 <div className={`accrodion ${isActive.key === 1 ? 'active' : ''}`} onClick={() => handleToggle(1)}>
                   <div className="accrodion-title">
-                    <h4>How often should I have my Skyline Roof Care?</h4>
+                    <h4>Can I get a free consultancy call?</h4>
                   </div>
                   <div className="accrodion-content" style={{ display: isActive.key === 1 ? 'block' : 'none' }}>
                     <div className="inner">
-                      <p>Roof Service is a vital aspect of home maintenance a repair. It encompasses a wide range of the services</p>
+                      <p>Yes, you can get a free consultancy call with our experts. Just contact us and we will schedule a call at your convenience.</p>
                     </div>
                   </div>
                 </div>
                 <div className={`accrodion ${isActive.key === 2 ? 'active' : ''}`} onClick={() => handleToggle(2)}>
                   <div className="accrodion-title">
-                    <h4>What Is The Peak Protection Roofing?</h4>
+                    <h4>Is the consultancy call really free?</h4>
                   </div>
                   <div className="accrodion-content" style={{ display: isActive.key === 2 ? 'block' : 'none' }}>
                     <div className="inner">
-                      <p>Roof Service is a vital aspect of home maintenance a repair. It encompasses a wide range of the services</p>
+                      <p>Yes, the consultancy call is completely free. We are here to help you with your roofing needs without any charges.</p>
                     </div>
                   </div>
                 </div>
                 <div className={`accrodion ${isActive.key === 3 ? 'active' : ''}`} onClick={() => handleToggle(3)}>
                   <div className="accrodion-title">
-                    <h4>What Is The Elite Roof Service?</h4>
+                    <h4>How can I schedule a consultancy call?</h4>
                   </div>
                   <div className="accrodion-content" style={{ display: isActive.key === 3 ? 'block' : 'none' }}>
                     <div className="inner">
-                      <p>Roof Service is a vital aspect of home maintenance a repair. It encompasses a wide range of the services</p>
+                      <p>You can schedule a consultancy call by contacting us through our website or giving us a call. Our team will assist you in setting up a convenient time.</p>
                     </div>
                   </div>
                 </div>
                 <div className={`accrodion ${isActive.key === 4 ? 'active' : ''}`} onClick={() => handleToggle(4)}>
                   <div className="accrodion-title">
-                    <h4>What Is The Elite Roof Service?</h4>
+                    <h4>What can I expect from the consultancy call?</h4>
                   </div>
                   <div className="accrodion-content" style={{ display: isActive.key === 4 ? 'block' : 'none' }}>
                     <div className="inner">
-                      <p>Roof Service is a vital aspect of home maintenance a repair. It encompasses a wide range of the services</p>
+                      <p>During the consultancy call, our experts will answer your questions, provide advice, and help you understand the best options for your roofing needs.</p>
                     </div>
                   </div>
                 </div>

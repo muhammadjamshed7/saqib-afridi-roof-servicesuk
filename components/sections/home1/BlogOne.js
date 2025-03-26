@@ -8,7 +8,7 @@ const blogPosts = [
     date: "23 December 2023",
     title: "Trust the experts for all your roof service needs",
     link: "/blog-details",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuO80Q0j1Sy-WhHt-C5QM3hPZIjVgqWPQELg&s" // Note the leading slash for public assets
+    image: "assets/images/roof/pitchupdated.webp" // Note the leading slash for public assets
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const blogPosts = [
     date: "23 December 2023",
     title: "Enhance the beauty and functionality of your roof",
     link: "/blog-details",
-    image: "https://2021media.s3.us-east-1.amazonaws.com/2023/12/long-shot-man-with-helmet-sitting-roof.jpg"
+    image: "assets/images/roof/g2.png"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const blogPosts = [
     date: "23 December 2023",
     title: "Functionality of your roof with our service",
     link: "/blog-details",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7AuAOE5YzFjL47usNNYiELUIv9zQg370ag4DgSyMnt_RFRnjle6Fd_T16_aguKw_51so&usqp=CAU"
+    image: "assets/images/roof/g3.jpg"
   }
 ];
 
@@ -53,7 +53,7 @@ export default function BlogOne() {
                 <div className="blog-one__single">
                   <div className="blog-one__img-box">
                     <div className="blog-one__img">
-                      <img src={post.image} alt={post.title} />
+                      <img src={post.image} alt={post.title} height={"200px"} />
                     </div>
                   </div>
                   <div className="blog-one__content">
