@@ -1,5 +1,8 @@
 {
-  "/about/page": "app/about/page.js",
-  "/page": "app/page.js",
-  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js"
+  "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js",
+  "/(services)/flat-roof/page": "app/(services)/flat-roof/page.js",
+  "/(services)/skyline-roofing-solutions/page": "app/(services)/skyline-roofing-solutions/page.js",
+  "/(services)/sure-guard-roofing-services/page": "app/(services)/sure-guard-roofing-services/page.js",
+  "/(services)/reliable-roof-repair/page": "app/(services)/reliable-roof-repair/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

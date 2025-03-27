@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Home() {
     const [serviceDetails] = useState({
-        title: "Rise Above the Rest with Roof",
-        text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
-        image1: "/assets/images/services/service-details-img-1-3.jpg",
+        title: "Chimney Service",
+        text1: "Chimneys are a common feature of pitched roofs, providing ventilation and allowing smoke to escape from the home. Available in various styles like gable, hip, and mansard, a chimney adds character and charm to a pitched roof. Whether you need a new chimney or repairs to an existing one, our team can help.",
+        image1: "assets/images/roof/chm.jpg",
         title2: "Service all details",
-        text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text2: "Chimney Service involves the installation, maintenance, and repair of chimneys for residential and commercial buildings. Our team of experts can help you with all your chimney needs, from new installations to repairs and maintenance.",
         points: [
             "Transforming houses into homes with superior",
             "Experience peace of mind under a sturdy",
@@ -18,11 +18,11 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "/assets/images/services/service-details-images-1-1.jpg",
-            "/assets/images/services/service-details-images-1-2.jpg",
+           " assets/images/roof/chm.jpg",
+            "assets/images/roof/chimney.jpeg",
         ],
         content3Title: "Elevating Excellence",
-        text3: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text3: "We appreciate that no refurbishment project is the same so our chimney refurbishment service is tailored to each client’s individual requirements.  As one of the South East’s leading roofers, we have access to some of the finest products and materials from many of the industry’s biggest names, so you can be guaranteed absolute quality and reliability. With access to a wide range of high quality materials, we can provide comprehensive chimney refurbishments that perfectly complement your property’s exterior appearance and style. Whatever colour, style or size you need, we will be able to provide the solutionAs chimneys have to withstand a lot, we would also recommend a regular maintenance programme to ensure that your chimney is safe, fully operational and effective at all times.",
         text4: "",
         features: [
             {
@@ -145,8 +145,8 @@ export default function Home() {
                     {/* Service Details End */}
                     {/* CTA Two Start */}
                     <CTASection
-                        backgroundImage="/assets/images/backgrounds/cta-two-bg.jpg"
-                        imgSrc="/assets/images/resources/cta-two-img-1.png"
+                        backgroundImage="/assets/images/roof/chimney.jpeg"
+                        imgSrc="/assets/images/roof/chm.jpg"
                         title="One Single at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"

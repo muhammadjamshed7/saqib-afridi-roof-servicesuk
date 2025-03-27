@@ -37,6 +37,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(services)/peak-performance-roofing/page.js"
+    ],
+    "/(services)/flat-roof/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/flat-roof/page.js"
+    ],
+    "/(services)/skyline-roofing-solutions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/skyline-roofing-solutions/page.js"
+    ],
+    "/(services)/sure-guard-roofing-services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/sure-guard-roofing-services/page.js"
+    ],
+    "/(services)/reliable-roof-repair/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/reliable-roof-repair/page.js"
     ]
   }
 }

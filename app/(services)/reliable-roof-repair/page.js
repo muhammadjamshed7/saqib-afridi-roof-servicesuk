@@ -7,11 +7,11 @@ import Link from "next/link";
 export default function Home() {
     // State to hold dynamic content
     const [serviceDetails] = useState({
-        title: "Rise Above the Rest with Roof",
-        text1: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
-        image1: "assets/images/services/service-details-img-1-4.jpg",
+        title: "Relaible Roof Repair",
+        text1: "Reliable Roof Repair is a full-service roofing company that offers a wide range of roofing solutions for residential and commercial properties. Our team of experienced roofers is dedicated to providing high-quality workmanship and exceptional customer service. Whether you need a new roof installation, roof repair, or roof maintenance, we have the skills and expertise to get the job done right. Contact us today to learn more about our services and how we can help you with all of your roofing needs.",
+        image1: "assets/images/roof/rr.jpg",
         title2: "Service all details",
-        text2: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text2: "Roof Repair is a full-service roofing company that offers a wide range of roofing solutions for residential and commercial properties. Our team of experienced roofers is dedicated to providing high-quality workmanship and exceptional customer service. Whether you need a new roof installation, roof repair, or roof maintenance, we have the skills and expertise to get the job done right.",
         points: [
             "Transforming houses into homes with superior",
             "Experience peace of mind under a sturdy",
@@ -19,11 +19,11 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "assets/images/services/service-details-images-1-1.jpg",
-            "assets/images/services/service-details-images-1-2.jpg",
+            "assets/images/roof/rr2.jpeg",
+            "assets/images/roof/rr3.jpg",
         ],
         content3Title: "Elevating Excellence",
-        text3: "A pitched roof features sloping sides that meet at a ridge, allowing for effective water drainage and ventilation. Available in styles like gable, hip, and mansard, it offers durability, longevity, and extra space in the form of an attic. Ideal for areas with heavy rain or snow, a pitched roof is a reliable and timeless roofing solution.",
+        text3: "Our team of experienced roofers is dedicated to providing high-quality workmanship and exceptional customer service. Whether you need a new roof installation, roof repair, or roof maintenance, we have the skills and expertise to get the job done right. Contact us today to learn more about our services and how we can help you with all of your roofing needs.",
         text4: "",
         features: [
             {
@@ -145,8 +145,8 @@ export default function Home() {
 
                     {/* CTA Two Start */}
                     <CTASection
-                        backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
-                        imgSrc="assets/images/resources/cta-two-img-1.png"
+                        backgroundImage="assets/images/roof/rr.jpg"
+                        imgSrc="assets/images/roof/rr.jpg"
                         title="One Single at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"

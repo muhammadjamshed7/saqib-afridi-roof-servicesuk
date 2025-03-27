@@ -9,7 +9,7 @@ export default function Home() {
     const [serviceDetails] = useState({
         title: "Gutter, fascia and soffits",
         text1: "Gutters, fascia, and soffits  are essential components of a well-structured roofing system, ensuring both functionality and aesthetics.  Gutters  collect and direct rainwater away from the roof and foundation, preventing water damage and erosion.  Fascia  is the horizontal board that runs along the roof edge, supporting the gutter system while providing a clean, finished look.  Soffits  are the underside panels beneath the eaves, promoting ventilation and preventing moisture buildup in the attic. Together, these elements enhance the roof's durability, improve airflow, and contribute to the overall appearance of the property.",
-        image1: "assets/images/roof/g2.webp",
+        image1: "assets/images/roof/gd.webp",
         title2: "Service all details",
         text2: "Our  gutter, fascia, and soffit services  ensure superior protection, ventilation, and aesthetic appeal for your property. Proper installation prevents water damage, improves airflow, and enhances curb appeal, extending the lifespan of your roof and home.",
         points: [
@@ -23,7 +23,7 @@ export default function Home() {
             
         ],
         content3Title: "Elevating Excellence",
-        text3: " Elevating Excellence in Gutters, Fascia, and Soffits At Your Company Name, we take pride in  elevating excellence  through high-quality  gutters, fascia, and soffits  that enhance both the functionality and aesthetics of your property. Our expertly crafted  gutter systems  ensure efficient water drainage, protecting your roof and foundation from potential damage. The  fascia  not only supports the gutters but also adds a sleek, polished finish to your roofline, while our  soffits  provide crucial ventilation to prevent moisture buildup and improve airflow. Designed for durability and style, our solutions are tailored to withstand the elements while complementing your home’s architecture. With precision installation and premium materials, we deliver  exceptional protection, lasting performance, and unmatched curb appeal  for your property.",
+        text3: " Gutters, fascia, and soffits are essential components of a well-structured roofing system, ensuring both functionality and aesthetics. Gutters collect and direct rainwater away from the roof and foundation, preventing water damage and erosion. Fascia is the horizontal board that runs along the roof edge, supporting the gutter system while providing a clean, finished look. Soffits are the underside panels beneath the eaves, promoting ventilation and preventing moisture buildup in the attic. Together, these elements enhance the roof's durability, improve airflow, and contribute to the overall appearance of the property.",
         text4: "",
         features: [
             {
