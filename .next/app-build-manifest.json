@@ -57,6 +57,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(services)/reliable-roof-repair/page.js"
+    ],
+    "/(services)/top-notch-roofing-restoration/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/top-notch-roofing-restoration/page.js"
     ]
   }
 }
