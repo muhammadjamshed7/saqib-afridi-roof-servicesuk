@@ -3,5 +3,6 @@
   "/(services)/skyline-roofing-solutions/page": "app/(services)/skyline-roofing-solutions/page.js",
   "/(services)/sure-guard-roofing-services/page": "app/(services)/sure-guard-roofing-services/page.js",
   "/(services)/reliable-roof-repair/page": "app/(services)/reliable-roof-repair/page.js",
-  "/(services)/top-notch-roofing-restoration/page": "app/(services)/top-notch-roofing-restoration/page.js"
+  "/(services)/top-notch-roofing-restoration/page": "app/(services)/top-notch-roofing-restoration/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

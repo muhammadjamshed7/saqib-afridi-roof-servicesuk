@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Home() {
     const [serviceDetails] = useState({
-        title: "Rise Above the Rest with Roof",
-        text1: "Roof Cleaning Services in London. We provide a range of roof cleaning services in London and the surrounding areas. Our team of experts can help you to keep your roof in top condition, ensuring that it looks great and lasts for years to come.",
-        image1: "/assets/images/roof/pitchroof.jpeg",
+        title: "Gutter Fascia and Soffits",
+        text1: " Gutter Fascia and soffits are essential components of a roof system. They play a crucial role in protecting the roof and the building from water damage. Fascia boards are installed at the edge of the roof, providing a finished look and supporting the gutters. Soffits are installed underneath the eaves, allowing for ventilation and preventing moisture buildup.",
+        image1: "https://www.anglianhome.co.uk/-/media/ahi/personalisation-images/rooftrim/rooftrim-explanation.png?mh=727",
         title2: "Service all details",
-        text2: "Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings. Our team of experts can help you to keep your roof in top condition, ensuring that it looks great and lasts for years to come.",
+        text2: "Gutter Fascia and soffits services we provide include installation, repair, and maintenance. Our team of experts ensures that your roof system is functioning optimally, preventing leaks and water damage. We use high-quality materials and techniques to ensure durability and longevity.",
         points: [
             "Transforming houses into homes with superior",
             "Experience peace of mind under a sturdy",
@@ -18,11 +18,11 @@ export default function Home() {
             "Roofing solutions tailored to your budget",
         ],
         images: [
-            "/assets/images/services/service-details-images-1-1.jpg",
-            "/assets/images/services/service-details-images-1-2.jpg",
+            "https://www.checkatrade.com/blog/wp-content/uploads/2020/06/how-much-does-it-cost-to-replace-soffits-and-fascia-in-the-uk.jpg",
+            "https://www.scaffold-tower.co.uk/wp-content/uploads/2021/11/How-and-When-To-Repair-or-Replace-Roof-Fascia-Board-Which-Is-Damaged.jpg",
         ],
         content3Title: "Elevating Excellence",
-        text3: "Roof cleaning services involve the removal of dirt, debris, and moss from the roof surface. This process helps to prevent damage and prolong the life of the roof. Our team of experts can help you to keep your roof in top condition, ensuring that it looks great and lasts for years to come. We provide a range of roof cleaning services in London and the surrounding areas. Our team of experts can help you to keep your roof in top condition, ensuring that it looks great and lasts for years to come.",
+        text3: " Gutter Fascia and soffits are essential components of a roof system. They play a crucial role in protecting the roof and the building from water damage. Fascia boards are installed at the edge of the roof, providing a finished look and supporting the gutters. Soffits are installed underneath the eaves, allowing for ventilation and preventing moisture buildup.",
         text4: "",
         features: [
             {
@@ -49,7 +49,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Top Notch Roofing Restoration">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Gutter Fascia and Soffits">
                 <div>
                     {/* Service Details Start */}
                     <section className="service-details">
@@ -120,7 +120,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-lg-5">
+                                {/* <div className="col-xl-4 col-lg-5">
                                     <div className="service-details__sidebar">
                                         <div className="service-details__service-list-box">
                                             <h4 className="service-details__sidebar-title">Main Service</h4>
@@ -136,7 +136,7 @@ export default function Home() {
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>
@@ -144,7 +144,7 @@ export default function Home() {
                     {/* CTA Two Start */}
                     <CTASection
                         backgroundImage="/assets/images/backgrounds/cta-two-bg.jpg"
-                        imgSrc="/assets/images/resources/cta-two-img-1.png"
+                        imgSrc="https://www.checkatrade.com/blog/wp-content/uploads/2020/06/cost-to-replace-fascia-and-soffit.jpg"
                         title="One Single at a Time"
                         text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                         buttonText="Contact Us"

@@ -52,7 +52,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Peak Performance Roofing">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Pitched Roof Services">
                 <div>
                     {/* Service Details Start */}
                     <section className="service-details">
@@ -123,7 +123,7 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-lg-5">
+                                {/* <div className="col-xl-4 col-lg-5">
                                     <div className="service-details__sidebar">
                                         <div className="service-details__service-list-box">
                                             <h4 className="service-details__sidebar-title">Main Service</h4>
@@ -139,7 +139,7 @@ export default function Home() {
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>

@@ -12,30 +12,30 @@ const testimonials = [
   {
     name: 'Cameron Williamson',
     designation: 'Pro Roofing Experts',
-    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
-    quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
+    imgSrc: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3',
+    quote: 'The team was professional and delivered exceptional results. Highly recommend their services!',
     rating: 5,
   },
   {
     name: 'Sajid Hasan',
     designation: 'Roofing Masters',
-    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
-    quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
-    rating: 3,
+    imgSrc: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3',
+    quote: 'Great experience working with them. The project was completed on time and exceeded expectations.',
+    rating: 4,
   },
   {
-    name: 'Cameron Williamson',
-    designation: 'Pro Roofing Experts',
-    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
-    quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
+    name: 'Emily Carter',
+    designation: 'Construction Specialist',
+    imgSrc: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3',
+    quote: 'Their attention to detail and commitment to quality is truly impressive. Would hire again!',
     rating: 5,
   },
   {
-    name: 'Sajid Hasan',
-    designation: 'Roofing Masters',
-    imgSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD',
-    quote: 'Construction is an essential industry that involves building and designing structures such as buildings, roads, bridges, and more. It requires skilled workers, materials, and careful planning to ensure success.',
-    rating: 3,
+    name: 'John Doe',
+    designation: 'Architect',
+    imgSrc: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3',
+    quote: 'The team was knowledgeable and efficient. The final outcome was exactly what we envisioned.',
+    rating: 4,
   },
   // Add more testimonials as needed
 ];
@@ -106,7 +106,7 @@ export default function TestimonialOne() {
                 </div>
                 <div className="testimonial-one__client-info">
                   <div className="testimonial-one__client-img">
-                    <img src={testimonial.imgSrc} alt={testimonial.name}  height={"90px"}width={"80px"}/>
+                    <img src={testimonial.imgSrc} alt={testimonial.name}  height={"90px"}width={"100px"}/>
                   </div>
                   <div className="testimonial-one__client-content">
                     <h3>
