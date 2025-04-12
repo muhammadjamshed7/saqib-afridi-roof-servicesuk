@@ -22,30 +22,31 @@ export default function Menu() {
                 <ul>
                
                 <li>
-                    <Link href="/peak-performance-roofing">Pitched roof</Link>
+                    <Link href="/peak-performance-roofing">Pitched Roof</Link>
                 </li>
                 <li>
-                    <Link href="/flat-roof">flat roof</Link>
+                    <Link href="/flat-roof">Flat Roof</Link>
                 </li>
                 <li>
-                    <Link href="/skyline-roofing-solutions">gutter,fascia and soffits</Link>
+                    <Link href="/skyline-roofing-solutions">Gutter,Fascia and Soffits</Link>
                 </li>
                 <li>
                     <Link href="/sure-guard-roofing-services">
-                    chimney & lead
+                    Chimney & Lead
                     </Link>
                 </li>
                 <li>
-                    <Link href="/reliable-roof-repair">roof repairs</Link>
+                    <Link href="/reliable-roof-repair">Roof Repairs</Link>
                 </li>
                 <li>
-                    <Link href="/top-notch-roofing-restoration">
-                    roof and gutter cleaning.
+                    <Link href="/roof-cleaning">
+                    Roof and Gutter Cleaning.
                     </Link>
                 </li>
                 <li>
-                    <Link href="/top-notch-roofing-restoration">
-                    roof maintenance
+                    <Link href="/roof-maintainence
+                    ">
+                    Roof maintenance
                     </Link>
                 </li>
                 </ul>

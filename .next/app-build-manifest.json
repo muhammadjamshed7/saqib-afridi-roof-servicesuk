@@ -57,6 +57,31 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(services)/top-notch-roofing-restoration/page.js"
+    ],
+    "/(services)/roof-cleaning/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/roof-cleaning/page.js"
+    ],
+    "/(services)/roof-maintainence/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/roof-maintainence/page.js"
+    ],
+    "/(projects)/project/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(projects)/project/page.js"
+    ],
+    "/(projects)/project-details/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(projects)/project-details/page.js"
+    ],
+    "/(services)/services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/services/page.js"
     ]
   }
 }

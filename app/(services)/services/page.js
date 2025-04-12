@@ -3,6 +3,7 @@ import React from 'react';
 import ServicesPage from '../../../components/ServicesPage/ServicesPage'
 import Layout from "@/components/layout/Layout"
 import CTASection from '../../../components/common/CTASection';
+import Footer1 from '@/components/layout/footer/Footer1';
 const servicesData = [
     {
       imgSrc: 'https://cdn.cupapizarras.com/wp-content/uploads/2024/10/pitched-roofs.jpg',
@@ -69,7 +70,7 @@ export default function Home() {
                 {/* Other components and sections */}
                 <CTASection
                     backgroundImage="assets/images/backgrounds/cta-two-bg.jpg"
-                    imgSrc="assets/images/resources/cta-two-img-1.png"
+                    imgSrc="https://www.mmandcoroofing.co.uk/images/rhs/roof-repairs.webp"
                     title="One Single at a Time"
                     text="Roof service involves the installation, maintenance, and repair of roofs for residential and commercial buildings."
                     buttonText="Contact Us"
@@ -78,6 +79,7 @@ export default function Home() {
                 {/* Other components and sections */}
             </div>
             </Layout>
+            <Footer1/>
         </>
     )
 }

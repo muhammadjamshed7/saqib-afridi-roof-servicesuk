@@ -2,12 +2,13 @@
 import { useEffect } from 'react';
 import Layout from '@/components/layout/Layout';
 import CTASection from '@/components/common/CTASection';
+import Footer1 from '@/components/layout/footer/Footer1';
 
 const imgName = [
-  { img: "https://images.adsttc.com/media/images/5c5c/8d7e/284d/d1d5/4a00/00d7/newsletter/img-(14).jpg?1549569398" },
-  { img: "https://images.adsttc.com/media/images/5c5c/8a24/284d/d1d5/4a00/00ce/newsletter/-_Featured_Image.jpg?1549568538" },
-  { img: "https://metalroofingmiamifl.com/wp-content/uploads/2025/01/Roof-Underlayment.webp" },
-  { img: "https://img77.uenicdn.com/image/upload/v1687796570/business/652b1e30-7d95-417d-88c6-20c037a36dba.jpg" }
+  { img: "https://www.homelogic.co.uk/sites/default/files/2019-10/FLAT%20ROOFING%20GRP%20Fibreglass.jpg" },
+  { img: "https://www.phoenixroofingltd.co.uk/wp-content/uploads/2023/02/WhatsApp-Image-2023-01-25-at-03.04.38.jpeg" },
+  { img: "https://spoonerscleaning.ie/wp-content/uploads/2024/07/download-6-1080x675.webp" },
+  { img: "https://www.foxguttercleaning.com/wp-content/uploads/2023/02/Fox-Gutter-Repair-Service-in-Shrewsbury-Massachusetts-1024x770.jpg" }
 ];
 export default function Home() {
   useEffect(() => {
@@ -97,6 +98,7 @@ export default function Home() {
         {/* CTA Two End */}
         </div>
       </Layout>
+      <Footer1 />
     </>
   );
 }
