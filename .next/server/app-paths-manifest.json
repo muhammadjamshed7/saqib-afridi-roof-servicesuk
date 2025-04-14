@@ -1,8 +1,1 @@
-{
-  "/(services)/roof-maintainence/page": "app/(services)/roof-maintainence/page.js",
-  "/(projects)/project/page": "app/(projects)/project/page.js",
-  "/(projects)/project-details/page": "app/(projects)/project-details/page.js",
-  "/about/page": "app/about/page.js",
-  "/(services)/services/page": "app/(services)/services/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}
+{}
