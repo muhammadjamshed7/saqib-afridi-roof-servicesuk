@@ -53,7 +53,7 @@ const servicesData = [
       iconClass: 'icon-stairs',
       title: 'Roof maintenance',
       description: 'Roof maintenance includes inspections, repairs, and cleaning to prevent leaks, damages, and wear.',
-      link: 'peak-performance-roofing',
+      link: 'roof-maintainence',
     },
   ];
   

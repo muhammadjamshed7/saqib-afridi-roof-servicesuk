@@ -21,6 +21,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
+    ],
+    "/(services)/services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/services/page.js"
+    ],
+    "/(services)/roof-cleaning/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/roof-cleaning/page.js"
+    ],
+    "/(services)/peak-performance-roofing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/peak-performance-roofing/page.js"
+    ],
+    "/(services)/roof-maintainence/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(services)/roof-maintainence/page.js"
     ]
   }
 }
