@@ -100,11 +100,13 @@ const MobileNav = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <a href="#" onClick={() => handleToggle("services")}>Services</a>
                 <ul style={{ display: `${isActive.key === "services" ? "block" : "none"}` }}>
                   <li><Link href="/services" onClick={handleMobileMenu}>Services</Link></li>
-                  <li><Link href="/peak-performance-roofing" onClick={handleMobileMenu}>Peak Performance Roofing</Link></li>
+                  <li><Link href="/peak-performance-roofing" onClick={handleMobileMenu}>Pitched Roof Services</Link></li>
+                  <li><Link href="/flat-roof" onClick={handleMobileMenu}>Flat Roof</Link></li>
                   <li><Link href="/skyline-roofing-solutions" onClick={handleMobileMenu}>Gutter, fascia and soffits</Link></li>
-                  <li><Link href="/sure-guard-roofing-services" onClick={handleMobileMenu}>Sure Guard Roofing Services</Link></li>
+                  <li><Link href="/sure-guard-roofing-services" onClick={handleMobileMenu}>Chimney & Lead</Link></li>
+                  <li><Link href="/roof-cleaning" onClick={handleMobileMenu}>Roof and Gutter Cleaning.</Link></li>
                   <li><Link href="/reliable-roof-repair" onClick={handleMobileMenu}>Reliable Roof Repair</Link></li>
-                  <li><Link href="/top-notch-roofing-restoration" onClick={handleMobileMenu}>Top Notch Roofing Restoration</Link></li>
+                  <li><Link href="/roof-maintainence" onClick={handleMobileMenu}>Roof maintenance</Link></li>
                 </ul>
                 <div className={isActive.key === "services" ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle("services")}>
                   <span className="fa fa-angle-right" />

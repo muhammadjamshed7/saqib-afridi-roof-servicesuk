@@ -52,7 +52,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Peak Performance Roofing">
+            <Layout headerStyle={1} footerStyle={2} breadcrumbTitle="Flat Roof Services">
                 <div>
                     {/* Service Details Start */}
                     <section className="service-details">

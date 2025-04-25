@@ -1,7 +1,9 @@
 {
-  "/page": "app/page.js",
-  "/(services)/services/page": "app/(services)/services/page.js",
+  "/(services)/flat-roof/page": "app/(services)/flat-roof/page.js",
   "/(services)/roof-cleaning/page": "app/(services)/roof-cleaning/page.js",
+  "/(services)/roof-maintainence/page": "app/(services)/roof-maintainence/page.js",
   "/(services)/peak-performance-roofing/page": "app/(services)/peak-performance-roofing/page.js",
-  "/(services)/roof-maintainence/page": "app/(services)/roof-maintainence/page.js"
+  "/(services)/sure-guard-roofing-services/page": "app/(services)/sure-guard-roofing-services/page.js",
+  "/page": "app/page.js",
+  "/(services)/services/page": "app/(services)/services/page.js"
 }
